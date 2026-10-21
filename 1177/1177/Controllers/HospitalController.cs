@@ -2,9 +2,9 @@
 
 namespace _1177.Controllers
 {
-    public class Hospital : Controller
+    public class HospitalController : Controller
     {
-        public IActionResult Hostpital()
+        public IActionResult Hospital1()
         {
             return View();
         }

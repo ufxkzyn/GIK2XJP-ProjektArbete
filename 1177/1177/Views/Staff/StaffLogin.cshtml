@@ -1,0 +1,20 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Vårdpersonal Login</h1>
+	<form asp-action="StaffLogin" method="post">
+		<div class="form-group">
+			<label for="StaffId">PersonNr:</label>
+			<input type="text" class="form-control" id="StaffId" name="StaffId" />
+		</div>
+	</form>
+
+	<form asp-action="StaffLogin" method="post">
+		<div class="form-group">
+			<label for="StaffPW">Lösenord:</label>
+			<input type="text" class="form-control" id="StaffPW" name="StaffPW" />
+		</div>
+	</form>
+	<a class="btn btn-primary" asp-area="" asp-controller="Staff" asp-action="StaffIndex">Login</a>
