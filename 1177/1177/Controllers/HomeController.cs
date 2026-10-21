@@ -11,11 +11,20 @@ namespace _1177.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Staff()
         {
             return View();
         }
 
+        public IActionResult Patient()
+        {
+            return View();
+        }
+
+        public IActionResult Hostpital()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
