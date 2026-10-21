@@ -1,13 +1,10 @@
 [
   {
-    "PersonrNr": "199001011234"
-    {
-      "PersonNr": "199001011234",
-      "FirstName": "Anna"
-      "LastName": "Andersson"
-      "Password": "hemligtlosenord",
-      "Email": "AnnaDansar@hotmail.com"
-      "PhoneNr": "070-3142124"
-    }
+    "PersonNr": "199001011234",
+    "FirstName": "Anna"
+    "LastName": "Andersson"
+    "Password": "hemligtlosenord",
+    "Email": "AnnaDansar@hotmail.com"
+    "PhoneNr": "070-3142124"
   }
 ]
