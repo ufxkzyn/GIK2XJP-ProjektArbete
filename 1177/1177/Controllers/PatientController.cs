@@ -29,7 +29,9 @@ namespace _1177.Controllers
         {
             return View();
         }
+        public IActionResult SaveAndSendPatientRequest()
+        {
+            return View();
         }
-
     }
 
