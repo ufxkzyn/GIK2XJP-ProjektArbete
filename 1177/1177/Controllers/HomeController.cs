@@ -1,6 +1,6 @@
+using System.Diagnostics;
 using _1177.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 
 namespace _1177.Controllers
 {
