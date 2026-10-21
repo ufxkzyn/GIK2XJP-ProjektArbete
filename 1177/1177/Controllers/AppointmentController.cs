@@ -19,7 +19,7 @@ namespace _1177.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult Create(AppointmentSlot appointmentSlot) // Tar emot formuläret och sparar den i listan
+		public IActionResult Create(AppointmentSlot appointmentSlot) // Tar emot formuläret och sparar den i listan, JSON?
 		{
 			appointmentSlot.AppointmentSlotId =
 				AppointmentSlots.Count + 1;
