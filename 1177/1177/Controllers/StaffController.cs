@@ -12,5 +12,9 @@ namespace _1177.Controllers
         {
             return View();
         }
+        public IActionResult OpenPatientRequest()
+        {
+            return View();
+        }
     }
 }
