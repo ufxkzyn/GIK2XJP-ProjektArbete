@@ -1,10 +1,10 @@
 [
   {
     "PersonNr": "199001011234",
-    "FirstName": "Anna"
-    "LastName": "Andersson"
+    "FirstName": "Anna",
+    "LastName": "Andersson",
     "Password": "hemligtlosenord",
-    "Email": "AnnaDansar@hotmail.com"
+    "Email": "AnnaDansar@hotmail.com",
     "PhoneNr": "070-3142124"
   }
 ]

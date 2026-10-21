@@ -15,7 +15,7 @@ namespace _1177.Models
             if (CurrentPatient == null || CurrentRequest == null)
             {
                 throw new Exception("Patient or Request data is missing.");
-
+            }
             CurrentPatient.AsObject().Remove("Password");
             CurrentPatient.AsObject().Remove("Email");
             CurrentPatient.AsObject().Remove("PhoneNr");
