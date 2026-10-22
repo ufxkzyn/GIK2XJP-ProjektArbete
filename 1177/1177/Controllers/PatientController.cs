@@ -1,5 +1,6 @@
 ﻿using _1337.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.IO;
 
 namespace _1337.Controllers
 {
@@ -34,6 +35,23 @@ namespace _1337.Controllers
         public IActionResult PatientIndex()
         {
             return View(new GetPatientName().GetPatientNameMethod());
+        }
+
+        public IActionResult PatientLogout()
+        {
+            System.IO.File.WriteAllText("Data/CurrentPatient.json", "{ }");
+            return RedirectToAction("PatientLogin");
+        }
+
+        public IActionResult PatientRequest()
+        {
+            return View();
+        }
+
+        public IActionResult PatientRequestSend(string PatientRequest)
+        {
+            new PatientRequestReady().SaveAndSendPatientRequest(PatientRequest);
+            return RedirectToAction("PatientIndex");
         }
     }
 }

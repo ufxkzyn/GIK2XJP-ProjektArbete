@@ -1,5 +1,20 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model (DateTime Date, string Name)
+
+<header>
+    <h1>Välkommen till din startsida @Model.Name, Dagens datum är @Model.Date: vad vill du göra?</h1>
+</header>
+
+
+<div>
+    <a class="btn btn-primary" asp-area="" asp-controller="Staff" asp-action="StaffRequestRead">Visa alla behandlingsförfrågningar</a>
+</div>
+
+
+<div>
+    <a class="btn btn-primary" asp-area="" asp-controller="Staff" asp-action="empty">Visa alla bokade tider</a>
+</div>
+
+
+<div>
+    <a class="btn btn-primary" asp-area="" asp-controller="Staff" asp-action="StaffLogout">Logga ut</a>
+</div>

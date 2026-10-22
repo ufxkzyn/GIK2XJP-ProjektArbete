@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using _1337.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace _1337.Controllers
 {
@@ -12,9 +13,20 @@ namespace _1337.Controllers
         {
             return View();
         }
-        public IActionResult OpenPatientRequest()
+        public IActionResult StaffRequestRead()
         {
-            return View();
+            var RequestData = new StaffReadingPatientRequest().GetPatientRequest();
+            return View("StaffRequestRead", RequestData);
+        }
+        public IActionResult StaffLogout()
+        {
+            System.IO.File.WriteAllText("Data/CurrentStaff.json", "{ }");
+            return RedirectToAction("StaffLogin");
+        }
+        public IActionResult OpenPatientRequest(int priority, string staffComment)
+        {
+            new StaffReadingPatientRequest().OpenPatientRequest(priority, staffComment);
+            return RedirectToAction("StaffIndex");
         }
     }
 }
