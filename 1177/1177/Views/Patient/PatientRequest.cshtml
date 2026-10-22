@@ -1,0 +1,13 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<form asp-controller="Patient" asp-action="PatientLogin" method="post">
+	<div class="PatRequest">
+		<label for="PatientRequest">Beskriv dina besvär</label>
+		<input type="text" class="form-control" id="PatientRequest" name="PatientRequest" required />
+	</div>
+	<button type="submit" class="btn btn-primary">Skicka</button>
+</form>

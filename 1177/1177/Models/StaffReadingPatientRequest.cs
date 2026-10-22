@@ -2,7 +2,7 @@
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
 
-namespace _1177.Models
+namespace _1337.Models
 {
     public class StaffReadingPatientRequest
     {

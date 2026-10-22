@@ -1,4 +1,4 @@
-namespace _1177.Models
+namespace _1337.Models
 {
     public class AppointmentSlot
     {

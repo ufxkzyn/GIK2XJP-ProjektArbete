@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using _1337.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace _1177.Controllers
+namespace _1337.Controllers
 {
     public class PatientController : Controller
     {
@@ -15,11 +16,13 @@ namespace _1177.Controllers
         public async Task<IActionResult> PatientLogin(string patientId, string patientPW)
         {
             // Calls the function to check whether the login information was correct or incorrect
-            bool isValid = await _1177.PatientLogin.PatientLogin.ValidateCredentialsAsync(patientId, patientPW);
+            bool isValid = await _1337.PatientLogin.PatientLogin.ValidateCredentialsAsync(patientId, patientPW);
 
             // If it is correct, proceed
             if (isValid)
             {
+                // tror det ska ligga här, det sprarar den nuvarande inloggade patienten i currentpatient
+                new GetInformationFromDataToCurrentPatient().GetPatientInformation(patientId);
                 return RedirectToAction("PatientIndex");
             }
 
@@ -30,11 +33,7 @@ namespace _1177.Controllers
 
         public IActionResult PatientIndex()
         {
-            return View();
-        }
-        public IActionResult SaveAndSendPatientRequest()
-        {
-            return View();
+            return View(new GetPatientName().GetPatientNameMethod());
         }
     }
 }
