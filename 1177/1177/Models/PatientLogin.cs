@@ -1,13 +1,13 @@
 using System.Text.Json;
-using _1177.Models;
+using _1337.Models;
 
-namespace _1177.PatientLogin
+namespace _1337.PatientLogin
 {
     public static class PatientLogin
     {   // Async is used to free up threads, aka pure optimisation 
         public static async Task<bool> ValidateCredentialsAsync(string patientId, string patientPW)
         {
-            // AppContext.BaseDirectory is thge path for the "base" folder, aka 1177/1177/here
+            // AppContext.BaseDirectory is thge path for the "base" folder, aka 1337/1337/here
             string patientFilePath = Path.Combine(AppContext.BaseDirectory, "Data", "Patient", "PatientData.json");
 
             // If the file doesn's exist or isn't in that specific place, return false

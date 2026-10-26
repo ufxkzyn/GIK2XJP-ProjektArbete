@@ -1,20 +1,49 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using _1337.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace _1177.Controllers
+namespace _1337.Controllers
 {
     public class StaffController : Controller
     {
+        [HttpGet]
         public IActionResult StaffLogin()
         {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> StaffLogin(string StaffId, string StaffPW)
+        {
+            // Calls the function to check whether the login information was correct or incorrect
+            bool isValid = await _1177.StaffLogin.StaffLogin.ValidateCredentialsAsync(StaffId, StaffPW);
+
+            // If it is correct, proceed
+            if (isValid)
+            {
+                return RedirectToAction("StaffIndex");
+            }
+
+            // If it is incorrect, show a message
+            ViewBag.ErrorMessage = "Felaktigt personnummer eller lösenord.";
             return View();
         }
         public IActionResult StaffIndex()
         {
             return View();
         }
-        public IActionResult OpenPatientRequest()
+        public IActionResult StaffRequestRead()
         {
-            return View();
+            var RequestData = new StaffReadingPatientRequest().GetPatientRequest();
+            return View("StaffRequestRead", RequestData);
+        }
+        public IActionResult StaffLogout()
+        {
+            System.IO.File.WriteAllText("Data/CurrentStaff.json", "{ }");
+            return RedirectToAction("StaffLogin");
+        }
+        public IActionResult OpenPatientRequest(int priority, string staffComment)
+        {
+            new StaffReadingPatientRequest().OpenPatientRequest(priority, staffComment);
+            return RedirectToAction("StaffIndex");
         }
     }
 }

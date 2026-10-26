@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using _1337.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.IO;
 
-namespace _1177.Controllers
+namespace _1337.Controllers
 {
     public class PatientController : Controller
     {
@@ -15,11 +17,13 @@ namespace _1177.Controllers
         public async Task<IActionResult> PatientLogin(string patientId, string patientPW)
         {
             // Calls the function to check whether the login information was correct or incorrect
-            bool isValid = await _1177.PatientLogin.PatientLogin.ValidateCredentialsAsync(patientId, patientPW);
+            bool isValid = await _1337.PatientLogin.PatientLogin.ValidateCredentialsAsync(patientId, patientPW);
 
             // If it is correct, proceed
             if (isValid)
             {
+                // tror det ska ligga här, det sprarar den nuvarande inloggade patienten i currentpatient
+                new GetInformationFromDataToCurrentPatient().GetPatientInformation(patientId);
                 return RedirectToAction("PatientIndex");
             }
 
@@ -30,11 +34,24 @@ namespace _1177.Controllers
 
         public IActionResult PatientIndex()
         {
-            return View();
+            return View(new GetPatientName().GetPatientNameMethod());
         }
-        public IActionResult SaveAndSendPatientRequest()
+
+        public IActionResult PatientLogout()
+        {
+            System.IO.File.WriteAllText("Data/CurrentPatient.json", "{ }");
+            return RedirectToAction("PatientLogin");
+        }
+
+        public IActionResult PatientRequest()
         {
             return View();
+        }
+
+        public IActionResult PatientRequestSend(string PatientRequest)
+        {
+            new PatientRequestReady().SaveAndSendPatientRequest(PatientRequest);
+            return RedirectToAction("PatientIndex");
         }
     }
 }
