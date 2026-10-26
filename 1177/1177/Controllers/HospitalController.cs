@@ -8,5 +8,13 @@ namespace _1177.Controllers
         {
             return View();
         }
+        public IActionResult Hospital2()
+        {
+            return View();
+        }
+        public IActionResult Hospital3()
+        {
+            return View();
+        }
     }
 }
