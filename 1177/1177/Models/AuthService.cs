@@ -1,7 +1,8 @@
 using System.IO;
 using System.Text.Json;
+using _1337.Models;
 
-namespace _1177.Models
+namespace _1337.Models
 {
     // Exists to decouple the JSON file and the login method.
     public static class AuthService
