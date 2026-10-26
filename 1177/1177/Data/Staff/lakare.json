@@ -1,0 +1,50 @@
+[
+    {
+        "PersonNr": "199001011221",
+        "FirstName": "Anna",
+        "LastName": "Andersson",
+        "Password": "Mock-Lakare-01!",
+        "Email": "anna.andersson@example.com",
+        "PhoneNr": "070-1740605",
+        "Måndag": "08-17",
+        "Tisdag": "08-17",
+        "Onsdag": "08-08",
+        "Torsdag": "Ledig",
+        "Fredag": "08-17",
+        "Lördag": "Ledig",
+        "Söndag": "Ledig",
+        "Roll": "Läkare"
+    },
+    {
+        "PersonNr": "197804128358",
+        "FirstName": "Erik",
+        "LastName": "Lindqvist",
+        "Password": "Mock-Lakare-02!",
+        "Email": "erik.lindqvist@example.com",
+        "PhoneNr": "070-1740606",
+        "Måndag": "Ledig",
+        "Tisdag": "08-17",
+        "Onsdag": "08-17",
+        "Torsdag": "08-17",
+        "Fredag": "08-08",
+        "Lördag": "Ledig",
+        "Söndag": "Ledig",
+        "Roll": "Läkare"
+    },
+    {
+        "PersonNr": "198212093648",
+        "FirstName": "Sara",
+        "LastName": "Nyström",
+        "Password": "Mock-Lakare-03!",
+        "Email": "sara.nystrom@example.com",
+        "PhoneNr": "070-1740607",
+        "Måndag": "08-17",
+        "Tisdag": "Ledig",
+        "Onsdag": "Ledig",
+        "Torsdag": "08-17",
+        "Fredag": "08-17",
+        "Lördag": "08-08",
+        "Söndag": "Ledig",
+        "Roll": "Läkare"
+    }
+]
