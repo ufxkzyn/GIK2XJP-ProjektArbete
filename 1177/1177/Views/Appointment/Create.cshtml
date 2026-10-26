@@ -1,0 +1,22 @@
+@model _1337.Models.AppointmentSlot
+
+<h1>Lägg till doktorns lediga tider</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Doktor</label>
+        <input asp-for="DoctorName" />
+    </div>
+
+    <div>
+        <label>Starttid</label>
+        <input asp-for="StartTime" type="datetime-local" />
+    </div>
+
+    <div>
+        <label>Sluttid</label>
+        <input asp-for="EndTime" type="datetime-local" />
+    </div>
+
+    <button type="submit">Spara tid</button>
+</form>
