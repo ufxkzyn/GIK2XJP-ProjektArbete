@@ -17,7 +17,7 @@ namespace _1337.Controllers
             
         public IActionResult StaffIndex()
         {
-            return View();
+            return View(new GetUserName().GetUserNameMethod());
         }
         public IActionResult StaffRequestRead()
         {
@@ -26,7 +26,7 @@ namespace _1337.Controllers
         }
         public IActionResult StaffLogout()
         {
-            System.IO.File.WriteAllText("Data/CurrentStaff.json", "{ }");
+            System.IO.File.WriteAllText("Data/CurrentUser.json", "{ }");
             return RedirectToAction("StaffLogin");
         }
         public IActionResult OpenPatientRequest(int priority, string staffComment)

@@ -15,6 +15,7 @@ namespace _1337.StaffLogin
 
             if (isCorrect)
             {
+                new GetInformationFromDataToCurrentUser().GetUserInformation(staffId, "Data/Staff/AllStaff.json");
                 return controller.RedirectToAction("StaffIndex");
             }
 

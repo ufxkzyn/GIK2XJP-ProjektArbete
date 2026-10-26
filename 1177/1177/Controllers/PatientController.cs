@@ -18,12 +18,12 @@ namespace _1337.Controllers
 
         public IActionResult PatientIndex()
         {
-            return View(new GetPatientName().GetPatientNameMethod());
+            return View(new GetUserName().GetUserNameMethod());
         }
 
         public IActionResult PatientLogout()
         {
-            System.IO.File.WriteAllText("Data/CurrentPatient.json", "{ }");
+            System.IO.File.WriteAllText("Data/CurrentUser.json", "{ }");
             return RedirectToAction("PatientLogin");
         }
 

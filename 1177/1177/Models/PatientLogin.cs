@@ -14,6 +14,7 @@ namespace _1337.PatientLogin
 
             if (isCorrect)
             {
+                new GetInformationFromDataToCurrentUser().GetUserInformation(patientId, "Data/Patient/PatientData.json");
                 return controller.RedirectToAction("PatientIndex");
             }
 
