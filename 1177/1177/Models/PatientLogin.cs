@@ -1,14 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
-using _1177.Models;
+using _1337.Models;
 
-namespace _1177.PatientLogin
+namespace _1337.PatientLogin
 {
     public class PatientLogin
     {
-    
         public static async Task<IActionResult> ExecutePatientLoginAsync(Controller controller, string patientId, string patientPW)
         {
-            
             bool isCorrect = await AuthService.ValidateAsync<Patient>(
                 Path.Combine("Data", "Patient", "PatientData.json"),
                 p => p.PersonNr == patientId && p.Password == patientPW
