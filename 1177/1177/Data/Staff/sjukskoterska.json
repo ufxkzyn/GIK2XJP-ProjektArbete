@@ -1,0 +1,50 @@
+[
+	{
+		"PersonNr": "199511055429",
+		"FirstName": "Lina",
+		"LastName": "Ek",
+		"Password": "Mock-Usk-01!",
+		"Email": "lina.ek@example.com",
+		"PhoneNr": "070-1740611",
+		"Måndag": "07-16",
+		"Tisdag": "07-16",
+		"Onsdag": "07-16",
+		"Torsdag": "Ledig",
+		"Fredag": "13-22",
+		"Lördag": "13-22",
+		"Söndag": "Ledig",
+		"Roll": "Sjuksköterska"
+	},
+	{
+		"PersonNr": "198502283198",
+		"FirstName": "Peter",
+		"LastName": "Sjöberg",
+		"Password": "Mock-Usk-02!",
+		"Email": "peter.sjoberg@example.com",
+		"PhoneNr": "070-1740612",
+		"Måndag": "Ledig",
+		"Tisdag": "13-22",
+		"Onsdag": "13-22",
+		"Torsdag": "07-16",
+		"Fredag": "07-16",
+		"Lördag": "Ledig",
+		"Söndag": "13-22",
+		"Roll": "Sjuksköterska"
+	},
+	{
+		"PersonNr": "199009176265",
+		"FirstName": "Fatima",
+		"LastName": "Karimi",
+		"Password": "Mock-Usk-03!",
+		"Email": "fatima.karimi@example.com",
+		"PhoneNr": "070-1740613",
+		"Måndag": "21-07",
+		"Tisdag": "21-07",
+		"Onsdag": "Ledig",
+		"Torsdag": "Ledig",
+		"Fredag": "21-07",
+		"Lördag": "21-07",
+		"Söndag": "21-07",
+		"Roll": "Sjuksköterska"
+	}
+]
