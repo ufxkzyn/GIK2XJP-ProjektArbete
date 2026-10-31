@@ -12,34 +12,18 @@ namespace _1337.Controllers
             return View();
         }
 
-
         [HttpPost]
         public async Task<IActionResult> PatientLogin(string patientId, string patientPW)
-        {
-            // Calls the function to check whether the login information was correct or incorrect
-            bool isValid = await _1337.PatientLogin.PatientLogin.ValidateCredentialsAsync(patientId, patientPW);
-
-            // If it is correct, proceed
-            if (isValid)
-            {
-                // tror det ska ligga här, det sprarar den nuvarande inloggade patienten i currentpatient
-                new GetInformationFromDataToCurrentPatient().GetPatientInformation(patientId);
-                return RedirectToAction("PatientIndex");
-            }
-
-            // If it is incorrect, show a message
-            ViewBag.ErrorMessage = "Felaktigt personnummer eller lösenord.";
-            return View();
-        }
+            => await _1337.PatientLogin.PatientLogin.ExecutePatientLoginAsync(this, patientId, patientPW);
 
         public IActionResult PatientIndex()
         {
-            return View(new GetPatientName().GetPatientNameMethod());
+            return View(new GetUserName().GetUserNameMethod());
         }
 
         public IActionResult PatientLogout()
         {
-            System.IO.File.WriteAllText("Data/CurrentPatient.json", "{ }");
+            System.IO.File.WriteAllText("Data/CurrentUser.json", "{ }");
             return RedirectToAction("PatientLogin");
         }
 

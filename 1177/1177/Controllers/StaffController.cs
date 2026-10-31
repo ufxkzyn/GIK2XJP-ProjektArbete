@@ -10,25 +10,14 @@ namespace _1337.Controllers
         {
             return View();
         }
+
         [HttpPost]
-        public async Task<IActionResult> StaffLogin(string StaffId, string StaffPW)
-        {
-            // Calls the function to check whether the login information was correct or incorrect
-            bool isValid = await _1177.StaffLogin.StaffLogin.ValidateCredentialsAsync(StaffId, StaffPW);
-
-            // If it is correct, proceed
-            if (isValid)
-            {
-                return RedirectToAction("StaffIndex");
-            }
-
-            // If it is incorrect, show a message
-            ViewBag.ErrorMessage = "Felaktigt personnummer eller lösenord.";
-            return View();
-        }
+        public async Task<IActionResult> StaffLogin(string staffId, string staffPW)
+            => await _1337.StaffLogin.StaffLogin.ExecuteStaffLoginAsync(this, staffId, staffPW);
+            
         public IActionResult StaffIndex()
         {
-            return View();
+            return View(new GetUserName().GetUserNameMethod());
         }
         public IActionResult StaffRequestRead()
         {
@@ -37,7 +26,7 @@ namespace _1337.Controllers
         }
         public IActionResult StaffLogout()
         {
-            System.IO.File.WriteAllText("Data/CurrentStaff.json", "{ }");
+            System.IO.File.WriteAllText("Data/CurrentUser.json", "{ }");
             return RedirectToAction("StaffLogin");
         }
         public IActionResult OpenPatientRequest(int priority, string staffComment)
