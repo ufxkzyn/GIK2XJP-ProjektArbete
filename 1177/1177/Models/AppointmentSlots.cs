@@ -2,15 +2,9 @@ namespace _1337.Models
 {
     public class AppointmentSlot
     {
-        public int AppointmentSlotId { get; set; }
-        public string DoctorName { get; set; } = string.Empty;
-
-        public DateTime StartTime { get; set; } 
-
-        public DateTime EndTime { get; set; } 
-
-        public bool IsBooked { get; set; }
-
-        public string? PatientId { get; set; }
+        public string RumNr { get; set; }
+        public string Dag { get; set; }
+        public string Tid { get; set; }
+        public string? StaffPersonNr { get; set; }
     }
 }

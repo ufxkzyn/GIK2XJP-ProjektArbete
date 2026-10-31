@@ -3,11 +3,11 @@
 .site-header {
     width: 100%;
     background-color: #0F8F31;
-    box-shadow: 0 2px 8px rgba(0,, 0);
+    box-shadow: 0 2px 8px rgba(0, 0);
     margin-bottom: 24px;
 }
 
-   
+
     .site-header .navbar {
         min-height: 30px;
         padding: 5px 2px;
@@ -18,7 +18,7 @@
         margin-right: 10px;
     }
 
-    .site-header .logo-1337 {
+    .site-header .logo-1177 {
         display: inline-flex;
         align-items: center;
         justify-content: center;
