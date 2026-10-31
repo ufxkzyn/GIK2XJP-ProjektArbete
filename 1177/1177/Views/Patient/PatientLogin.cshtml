@@ -5,17 +5,23 @@
 }
 
 <h1>Patient Login</h1>
-	<form asp-action="PatientLogin" method="post">
-		<div class="form-group">
-			<label for="patientId">PersonNr:</label>
-			<input type="text" class="form-control" id="patientId" name="patientId"/>
+@if (ViewBag.ErrorMessage != null)
+{
+		<div class="alert alert-danger">
+			@ViewBag.ErrorMessage
 		</div>
-	</form>
+}
 
-	<form asp-action="PatientLogin" method="post">
-		<div class="form-group">
-			<label for="patientPW">Lösenord::</label>
-			<input type="text" class="form-control" id="patientPW" name="patientPW"/>
-		</div>
-	</form>
-	<a class="btn btn-primary" asp-area="" asp-controller="Patient" asp-action="PatientIndex">Login</a>
+<form asp-controller="Patient" asp-action="PatientLogin" method="post">
+	<div class="form-group mb-3">
+		<label for="patientId">Personnummer:</label>
+		<input type="text" class="form-control" id="patientId" name="patientId" required/>
+	</div>
+
+	<div class="form-group mb-3">
+		<label for="patientPW">Lösenord:</label>
+		<input type="password" class="form-control" id="patientPW" name="patientPW" required/>
+	</div>
+
+	<button type="submit" class="btn btn-primary">Login</button>
+</form>

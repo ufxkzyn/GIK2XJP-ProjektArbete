@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace _1177.Controllers
+namespace _1337.Controllers
 {
     public class HospitalController : Controller
     {
