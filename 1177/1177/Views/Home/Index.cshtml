@@ -1,27 +1,38 @@
-﻿@{
-    ViewData["Title"] = "1177";
-}
+﻿<div class="Header">
+    <span class="welcome-label">VÅRD OCH HÄLSA</span>
 
-<div class="d-flex align-items-center gap-4">
+    <h1>Welcome to Our Medical Website</h1>
 
-    <!-- Hospital section -->
-    <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle"
-               href="#"
-               id="hospitalDropdown"
-               role="button"
-               data-bs-toggle="dropdown"
-               aria-expanded="false">
-                Hospital
-            </a>
+    <p class="Header-description">
+        Find the healthcare information you need.
+        Explore hospitals in your region and discover
+        helpful information about our healthcare services.
+    </p>
 
-            <ul class="dropdown-menu" aria-labelledby="hospitalDropdown">
+    <div class="Header-actions">
+
+        <div class="dropdown">
+            <button class="btn btn-hospital dropdown-toggle"
+                    type="button"
+                    id="hospitalDropdown"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                <span class="button-icon">+</span>
+                Find a Hospital
+            </button>
+
+            <ul class="dropdown-menu hospital-menu"
+                aria-labelledby="hospitalDropdown">
+
                 <li>
                     <a class="dropdown-item"
                        asp-controller="Hospital"
                        asp-action="Hospital1">
-                        Sjukhus Dalarna
+                        <span class="hospital-icon">+</span>
+                        <span>
+                            <strong>Sjukhus Dalarna</strong>
+                            <small>Healthcare in Dalarna</small>
+                        </span>
                     </a>
                 </li>
 
@@ -29,7 +40,11 @@
                     <a class="dropdown-item"
                        asp-controller="Hospital"
                        asp-action="Hospital2">
-                        Sjukhus Gävleborg
+                        <span class="hospital-icon">+</span>
+                        <span>
+                            <strong>Sjukhus Gävleborg</strong>
+                            <small>Healthcare in Gävleborg</small>
+                        </span>
                     </a>
                 </li>
 
@@ -37,21 +52,30 @@
                     <a class="dropdown-item"
                        asp-controller="Hospital"
                        asp-action="Hospital3">
-                        Sjukhus Västernorrland
+                        <span class="hospital-icon">+</span>
+                        <span>
+                            <strong>Sjukhus Västernorrland</strong>
+                            <small>Healthcare in Västernorrland</small>
+                        </span>
                     </a>
                 </li>
-            </ul>
-        </li>
-    </ul>
 
-    <div class="information-section">
-        <a class="btn btn-primary"
+            </ul>
+        </div>
+
+        <a class="btn btn-information"
            asp-controller="Information"
            asp-action="Information1">
-            Mer info
+            More Information
+            <span aria-hidden="true">&rarr;</span>
         </a>
+
     </div>
 
+    <div class="trust-note">
+        <span class="trust-check" aria-hidden="true">&#10003;</span>
+        <span>Healthcare information in one place</span>
+    </div>
 </div>
 <img src="/images/Doctor.png"
      alt="Doctor"
