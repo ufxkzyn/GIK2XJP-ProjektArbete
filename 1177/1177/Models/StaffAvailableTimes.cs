@@ -1,5 +1,5 @@
-namespace _1177.Models
-public class Staff
+namespace _1337.Models;
+public class Staffgg
 {
 	public string PersonNr { get; set; }
 	public string FirstName { get; set; }
