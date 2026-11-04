@@ -19,6 +19,7 @@ namespace _1337.Controllers
         {
             return View(new GetUserName().GetUserNameMethod());
         }
+
         public IActionResult StaffRequestRead(string? roomPicked)
         {
             var RequestData = new StaffReadingPatientRequest().GetPatientRequest();
@@ -26,16 +27,20 @@ namespace _1337.Controllers
             ViewBag.RoomPicked = roomPicked;
             return View("StaffRequestRead", RequestData);
         }
+
         public IActionResult StaffLogout()
         {
             System.IO.File.WriteAllText("Data/CurrentUser.json", "{ }");
             return RedirectToAction("StaffLogin");
+
         }
+
         public IActionResult OpenPatientRequest(int priority, string staffComment)
         {
             new StaffReadingPatientRequest().OpenPatientRequest(priority, staffComment);
             return RedirectToAction("StaffIndex");
         }
+
         public IActionResult BookRoom(string roomPicked, string rum, string dag, string tid)
         {
             return RedirectToAction("StaffRequestRead", new { roomPicked });

@@ -34,7 +34,6 @@ namespace _1337.Models
                             }
                         }
                     }
-
                     break;
                 }
 

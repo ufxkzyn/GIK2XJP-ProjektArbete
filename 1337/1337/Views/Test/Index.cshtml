@@ -1,0 +1,72 @@
+﻿@using System.Text.Json.Nodes
+@model List<JsonObject>
+@{
+    ViewData["Title"] = "Tillgänglighet";
+
+    string[] days = { "Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag" };
+    string[] hours = Enumerable.Range(0, 24).Select(h => $"{h:00}-{(h + 1) % 24:00}").ToArray();
+    string current = ViewBag.StaffType;
+
+    var types = new Dictionary<string, string>
+    {
+        ["Doctors"] = "Läkare",
+        ["Nurses"] = "Sjuksköterskor",
+        ["AssistantNurse"] = "Undersköterskor"
+    };
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/test.css" asp-append-version="true" />
+}
+
+<h1>Tillgänglighet</h1>
+
+<nav class="mb-3">
+    @foreach (var (key, label) in types)
+    {
+        <a asp-action="Index" asp-route-staffType="@key"
+           class="btn btn-sm @(current == key ? "btn-primary" : "btn-outline-primary")">@label</a>
+    }
+</nav>
+
+<p class="legend">
+    <span class="cell on"></span> Arbetar
+    <span class="cell off"></span> Ledig
+</p>
+
+@foreach (var person in Model)
+{
+    // Uses "Name" if it exists, otherwise FirstName + LastName
+    string name = person["Name"]?.ToString() ?? $"{person["FirstName"]} {person["LastName"]}";
+
+    <section class="staff-card">
+        <h2>@name</h2>
+        <div class="table-responsive">
+            <table class="schedule">
+                <thead>
+                    <tr>
+                        <th></th>
+                        @foreach (var h in hours)
+                        {
+                            <th>@h[..2]</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var d in days)
+                    {
+                        var day = person[d]?.AsObject();
+                        <tr>
+                            <th>@d</th>
+                            @foreach (var h in hours)
+                            {
+                                bool working = day != null && day.ContainsKey(h) && day[h] is null;
+                                <td class="@(working ? "on" : "off")" title="@d @h"></td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </section>
+}

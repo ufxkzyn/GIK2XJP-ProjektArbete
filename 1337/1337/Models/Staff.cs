@@ -9,13 +9,13 @@ namespace _1337.Models
         public string Email { get; set; }
         public string PhoneNr { get; set; }
 
-        public string Måndag { get; set; }
-        public string Tisdag { get; set; }
-        public string Onsdag { get; set; }
-        public string Torsdag { get; set; }
-        public string Fredag { get; set; }
-        public string Lördag { get; set; }
-        public string Söndag { get; set; }
+        public Dictionary<string, string?> Måndag { get; set; } = new();
+        public Dictionary<string, string?> Tisdag { get; set; } = new();
+        public Dictionary<string, string?> Onsdag { get; set; } = new();
+        public Dictionary<string, string?> Torsdag { get; set; } = new();
+        public Dictionary<string, string?> Fredag { get; set; } = new();
+        public Dictionary<string, string?> Lördag { get; set; } = new();
+        public Dictionary<string, string?> Söndag { get; set; } = new();
 
         public string Roll { get; set; }
     }

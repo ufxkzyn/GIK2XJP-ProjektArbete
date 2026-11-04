@@ -33,6 +33,7 @@ namespace _1337
                 .WithStaticAssets();
 
             app.Run();
+
         }
     }
 }

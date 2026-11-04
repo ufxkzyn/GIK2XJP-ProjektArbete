@@ -18,6 +18,17 @@ namespace _1337.Models
                 File.WriteAllText("Data/CurrentUser.json", Tojson);
             }
         }
+        public void GetUserInformationStaff(string userId, string dataPath)
+        {
 
+            var usersData = JsonNode.Parse(File.ReadAllText(dataPath))?.AsObject();
+
+
+            if (usersData != null && usersData.TryGetPropertyValue(userId, out JsonNode? currentUser))
+            {
+                string Tojson = JsonSerializer.Serialize(currentUser, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText("Data/CurrentStaff.json", Tojson);
+            }
+        }
     }
 }
