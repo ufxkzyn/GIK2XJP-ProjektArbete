@@ -1,82 +1,124 @@
-﻿<div class="Header">
-    <span class="welcome-label">VÅRD OCH HÄLSA</span>
+﻿@section Styles {
+    <link rel="stylesheet" href="~/css/index.css"asp-append-version="true" />
+}
+<section class="Header">
+    <div class="Header-content">
 
-    <h1>Welcome to Our Medical Website</h1>
+        <!-- Left: Hero text -->
+        <div class="Header-text">
 
-    <p class="Header-description">
-        Find the healthcare information you need.
-        Explore hospitals in your region and discover
-        helpful information about our healthcare services.
-    </p>
+            <span class="welcome-label">VÅRD OCH HÄLSA</span>
 
-    <div class="Header-actions">
+            <h1>Welcome to Our Medical Website</h1>
 
-        <div class="dropdown">
-            <button class="btn btn-hospital dropdown-toggle"
-                    type="button"
-                    id="hospitalDropdown"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                <span class="button-icon">+</span>
-                Find a Hospital
-            </button>
+            <p class="Header-description">
+                Find the healthcare information you need.
+                Explore hospitals in your region and discover
+                helpful information about our healthcare services.
+            </p>
 
-            <ul class="dropdown-menu hospital-menu"
-                aria-labelledby="hospitalDropdown">
+            <div class="Header-actions">
 
-                <li>
-                    <a class="dropdown-item"
-                       asp-controller="Hospital"
-                       asp-action="Hospital1">
-                        <span class="hospital-icon">+</span>
-                        <span>
-                            <strong>Sjukhus Dalarna</strong>
-                            <small>Healthcare in Dalarna</small>
-                        </span>
-                    </a>
-                </li>
+                <!-- Hospital dropdown -->
+                <div class="dropdown">
+                    <button class="btn btn-hospital dropdown-toggle"
+                            type="button"
+                            id="hospitalDropdown"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
 
-                <li>
-                    <a class="dropdown-item"
-                       asp-controller="Hospital"
-                       asp-action="Hospital2">
-                        <span class="hospital-icon">+</span>
-                        <span>
-                            <strong>Sjukhus Gävleborg</strong>
-                            <small>Healthcare in Gävleborg</small>
-                        </span>
-                    </a>
-                </li>
+                        <span class="button-icon" aria-hidden="true">+</span>
+                        Find a Hospital
+                    </button>
 
-                <li>
-                    <a class="dropdown-item"
-                       asp-controller="Hospital"
-                       asp-action="Hospital3">
-                        <span class="hospital-icon">+</span>
-                        <span>
-                            <strong>Sjukhus Västernorrland</strong>
-                            <small>Healthcare in Västernorrland</small>
-                        </span>
-                    </a>
-                </li>
+                    <ul class="dropdown-menu hospital-menu"
+                        aria-labelledby="hospitalDropdown">
 
-            </ul>
+                        <li>
+                            <a class="dropdown-item"
+                               asp-controller="Hospital"
+                               asp-action="Hospital1">
+
+                                <span class="hospital-icon" aria-hidden="true">+</span>
+
+                                <span>
+                                    <strong>Sjukhus Dalarna</strong>
+                                    <small>Healthcare in Dalarna</small>
+                                </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item"
+                               asp-controller="Hospital"
+                               asp-action="Hospital2">
+
+                                <span class="hospital-icon" aria-hidden="true">+</span>
+
+                                <span>
+                                    <strong>Sjukhus Gävleborg</strong>
+                                    <small>Healthcare in Gävleborg</small>
+                                </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item"
+                               asp-controller="Hospital"
+                               asp-action="Hospital3">
+
+                                <span class="hospital-icon" aria-hidden="true">+</span>
+
+                                <span>
+                                    <strong>Sjukhus Västernorrland</strong>
+                                    <small>Healthcare in Västernorrland</small>
+                                </span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- Information button -->
+                <a class="btn btn-information"
+                   asp-controller="Information"
+                   asp-action="Information1">
+
+                    More Information
+                    <span aria-hidden="true">&rarr;</span>
+                </a>
+
+            </div>
+
+            <!-- Trust note -->
+            <div class="trust-note">
+                <span class="trust-check" aria-hidden="true">&#10003;</span>
+                <span>Healthcare information in one place</span>
+            </div>
+
         </div>
 
-        <a class="btn btn-information"
-           asp-controller="Information"
-           asp-action="Information1">
-            More Information
-            <span aria-hidden="true">&rarr;</span>
-        </a>
+        <!-- Doctor image he looks so trust worthy, right? -->
+        <div class="hero-visual">
+
+            <div class="image-decoration" aria-hidden="true"></div>
+
+            <img src="/images/Doctor.png"
+                 alt="Doctor providing healthcare services"
+                 class="doctor-image" />
+
+            <div class="image-caption">
+
+                <span class="caption-icon" aria-hidden="true">&#10003;</span>
+
+                <span>
+                    <strong>Healthcare You Can Trust</strong>
+                    <small>Reliable healthcare information</small>
+                </span>
+
+            </div>
+
+        </div>
 
     </div>
-
-    <div class="trust-note">
-        <span class="trust-check" aria-hidden="true">&#10003;</span>
-        <span>Healthcare information in one place</span>
-    </div>
-</div>
-<img src="/images/Doctor.png"
-     alt="Doctor"
-     class="img-fluid mt-4" />
+</section>

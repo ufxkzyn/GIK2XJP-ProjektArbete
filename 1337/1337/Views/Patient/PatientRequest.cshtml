@@ -1,13 +1,31 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿
+<link rel="stylesheet" href="~/css/Patient_request.css" />
 
-<form asp-controller="Patient" asp-action="PatientRequestSend" method="post">
-	<div class="PatRequest">
-		<label for="PatientRequest">Beskriv dina besvär</label>
-		<input type="text" class="form-control" id="PatientRequest" name="PatientRequest" required />
-	</div>
-	<button type="submit" class="btn btn-primary">Skicka</button>
+<form asp-controller="Patient"
+      asp-action="PatientRequestSend"
+      method="post"
+      class="patient-request-form">
+
+    <div class="PatRequest">
+        <label for="PatientRequest">
+            Beskriv dina besvär
+        </label>
+
+        <textarea class="form-control"
+                  id="PatientRequest"
+                  name="PatientRequest"
+                  rows="5"
+                  maxlength="2000"
+                  placeholder="Beskriv dina besvär så tydligt som möjligt..."
+                  required></textarea>
+
+        <small class="form-text text-muted">
+            Max 2000 tecken.
+        </small>
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Skicka förfrågan
+    </button>
+
 </form>

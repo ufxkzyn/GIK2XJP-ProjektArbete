@@ -1,0 +1,77 @@
+﻿@model Dictionary<string, System.Text.Json.JsonElement>
+
+<h2>"Room details"</h2>
+<input type="hidden" name="staffComment" value="@ViewBag.StaffComment" />
+<form asp-controller="Staff"
+      asp-action="OpenPatientRequest"
+      method="post">
+
+    <input type="hidden" name="priority" value="@ViewBag.Priority" />
+    <input type="hidden" name="staffComment" value="@ViewBag.StaffComment" />
+
+    @foreach (var room in Model)
+    {
+        var roomId = room.Key;
+        var roomData = room.Value;
+
+        <div class="card mb-3">
+            <div class="card-body">
+
+                <h5 class="card-title">
+                    Room @roomId
+                </h5>
+
+                <label>
+                    <input type="radio"
+                           name="roomId"
+                           value="@roomId"
+                           required />
+                    Select this room
+                </label>
+
+                <hr />
+
+                <h6>Available days and hours:</h6>
+
+                @foreach (var day in roomData.EnumerateObject())
+                {
+                    if (day.Name == "RumNr")
+                    {
+                        continue;
+                    }
+
+                    var availableHours = day.Value
+                        .EnumerateObject()
+                        .Where(hour =>
+                            hour.Value.ValueKind ==
+                            System.Text.Json.JsonValueKind.Null)
+                        .Select(hour => hour.Name)
+                        .ToList();
+
+                    <div class="mb-2">
+                        <strong>@day.Name:</strong>
+
+                        @if (availableHours.Any())
+                        {
+                            <span class="text-success">
+                                @string.Join(", ", availableHours)
+                            </span>
+                        }
+                        else
+                        {
+                            <span class="text-danger">
+                                Fully occupied
+                            </span>
+                        }
+                    </div>
+                }
+
+            </div>
+        </div>
+    }
+
+    <button type="submit" class="btn btn-primary">
+        Confirm room
+    </button>
+
+</form>

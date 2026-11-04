@@ -1,20 +1,80 @@
 ﻿@model (DateTime Date, string Name)
 
-<header>
-    <h1>Välkommen till din startsida @Model.Name, Dagens datum är @Model.Date: vad vill du göra?</h1>
-</header>
+<link rel="stylesheet" href="~/css/Staff_home.css" />
 
+<div class="staff-dashboard">
 
-<div>
-    <a class="btn btn-primary" asp-area="" asp-controller="Staff" asp-action="StaffRequestRead">Visa alla behandlingsförfrågningar</a>
-</div>
+    <header class="dashboard-header">
+        <div class="welcome-content">
+            <span class="dashboard-label">PERSONAL DASHBOARD</span>
 
+            <h1>Välkommen, @Model.Name!</h1>
 
-<div>
-    <a class="btn btn-primary" asp-area="" asp-controller="Staff" asp-action="empty">Visa alla bokade tider</a>
-</div>
+            <p>
+                Dagens datum är @Model.Date.ToString("yyyy-MM-dd").
+                Vad vill du göra idag?
+            </p>
+        </div>
 
+        <div class="header-icon">
+            <span>✚</span>
+        </div>
+    </header>
 
-<div>
-    <a class="btn btn-primary" asp-area="" asp-controller="Staff" asp-action="StaffLogout">Logga ut</a>
+    <main class="dashboard-content">
+
+        <h2>Hantera ditt arbete</h2>
+        <p class="section-description">
+            Välj ett av alternativen nedan för att fortsätta.
+        </p>
+
+        <div class="dashboard-grid">
+
+            <a class="dashboard-card"
+               asp-area=""
+               asp-controller="Staff"
+               asp-action="StaffRequestRead">
+
+                <div class="card-icon requests-icon">
+                    <span>📕</span>
+                </div>
+
+                <div class="card-text">
+                    <h3>Behandlingsförfrågningar</h3>
+                    <p>Visa och hantera alla inkomna behandlingsförfrågningar.</p>
+                </div>
+
+                <span class="card-arrow">→</span>
+            </a>
+
+            <a class="dashboard-card"
+               asp-area=""
+               asp-controller="Staff"
+               asp-action="empty">
+
+                <div class="card-icon bookings-icon">
+                    <span>📅</span>
+                </div>
+
+                <div class="card-text">
+                    <h3>Bokade tider</h3>
+                    <p>Se och administrera alla bokade tider.</p>
+                </div>
+
+                <span class="card-arrow">→</span>
+            </a>
+
+        </div>
+
+        <div class="dashboard-footer">
+            <a class="logout-button"
+               asp-area=""
+               asp-controller="Staff"
+               asp-action="StaffLogout">
+                <span>↪</span> Logga ut
+            </a>
+        </div>
+
+    </main>
+
 </div>

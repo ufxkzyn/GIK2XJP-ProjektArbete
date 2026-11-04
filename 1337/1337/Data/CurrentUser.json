@@ -1,16 +1,8 @@
 {
-  "PersonNr": "197804128358",
-  "FirstName": "Erik",
-  "LastName": "Lindqvist",
-  "Password": "Mock-Lakare-02!",
-  "Email": "erik.lindqvist@example.com",
-  "PhoneNr": "070-1740606",
-  "M\u00E5ndag": "Ledig",
-  "Tisdag": "08-17",
-  "Onsdag": "08-17",
-  "Torsdag": "08-17",
-  "Fredag": "08-08",
-  "L\u00F6rdag": "Ledig",
-  "S\u00F6ndag": "Ledig",
-  "Roll": "L\u00E4kare"
+  "PersonNr": "199001011234",
+  "FirstName": "Anna",
+  "LastName": "Andersson",
+  "Password": "hemligtlosenord",
+  "Email": "AnnaDansar@hotmail.com",
+  "PhoneNr": "070-3142124"
 }
