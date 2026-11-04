@@ -1,0 +1,82 @@
+/* Staff header */
+.staff-theme .site-header {
+    background-color: #0d47a1;
+}
+
+    /* Staff header text */
+    .staff-theme .site-header .logo-1177 {
+        color: #0d47a1;
+    }
+
+/* LOGIN TITLE */
+h1 {
+    text-align: center;
+    color: #1769aa;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 65px 0 25px;
+}
+
+/* LOGIN FORM */
+form {
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto 50px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    border-top: 5px solid #1769aa;
+}
+
+/* FORM GROUPS */
+.form-check-group,
+.form-group {
+    margin-bottom: 22px;
+}
+
+form .form-control::placeholder {
+    color: #9aa7b5;
+}
+
+/* INPUT FOCUS */
+form .form-control:focus {
+    border-color: #1769aa;
+    box-shadow: 0 0 0 3px rgba(23, 105, 170, 0.15);
+}
+
+/* LOGIN */
+form .btn-primary {
+    width: 100%;
+    padding: 13px;
+    background-color: #1769aa;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+    form .btn-primary:hover {
+        background-color: #104c80;
+    }
+
+/* ERROR MESSAGE */
+.alert-danger {
+    max-width: 430px;
+    margin: 0 auto 20px;
+}
+
+
+@media (max-width: 500px) {
+    form {
+        width: calc(100% - 30px);
+        padding: 28px 22px;
+    }
+
+    .alert-danger {
+        width: calc(100% - 30px);
+    }
+}
