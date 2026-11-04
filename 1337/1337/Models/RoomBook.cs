@@ -9,10 +9,10 @@ namespace _1337.Models
         public List<JsonObject> GetRoomBookings(string RoomPicked)
         {
             var bookingEntries = new List<JsonObject>();
-
+            System.IO.File.WriteAllText("Data/temp/RoomTimes.json", "{ }");
             switch (RoomPicked)
             {
-                case "Akutrum":
+                case "EmergencyRooms":
                 {
                     var CurrentRoomType = JsonNode.Parse(File.ReadAllText("Data/Hospital1/Rooms/EmergencyRooms.json"));
 
@@ -64,7 +64,7 @@ namespace _1337.Models
                         break;
                     }
 
-                case "Behandlingsrum":
+                case "ExaminationRooms":
                     {
                         var CurrentRoomType = JsonNode.Parse(File.ReadAllText("Data/Hospital1/Rooms/ExaminationRooms.json"));
 
@@ -87,10 +87,11 @@ namespace _1337.Models
                                 }
                             }
                         }
-
                         break;
                     }
             }
+            var SaveRoomBookSend = new JsonSerializerOptions { WriteIndented = true };
+            File.WriteAllText("Data/temp/RoomTimes.json", JsonSerializer.Serialize(bookingEntries, SaveRoomBookSend));
             return bookingEntries;
         }
     }

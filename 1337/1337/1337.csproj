@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\MatchRoomAndStaff.cs" />
     <Compile Remove="Models\ScheduleService.cs" />
   </ItemGroup>
 

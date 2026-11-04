@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.DataProtection.KeyManagement;
+using System.Text.Json;
 using System.Text.Json.Nodes;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -6,10 +7,8 @@ namespace _1337.Models
 {
     public class CheckAvailabilityStaff
     {
-        public List<JsonObject> StaffAvailability(string StaffType, out string StaffTimesOut)
+        public List<JsonObject> StaffAvailability(string StaffType)
         {
-            StaffTimesOut = string.Empty;
-
             var StaffTimes = new List<JsonObject>();
 
             switch (StaffType)
@@ -35,6 +34,7 @@ namespace _1337.Models
                         }
                         break;
                     }
+
                 case "Doctors":
                     {
                         var CurrentStaffTimes = JsonNode.Parse(File.ReadAllText("Data/Hospital1/Staff/Doctors.json"));
@@ -76,6 +76,8 @@ namespace _1337.Models
                         break;
                     }
             }
+            var SaveStaffTimesSendAway = new JsonSerializerOptions { WriteIndented = true };
+            File.WriteAllText("Data/temp/StaffTimes.json", JsonSerializer.Serialize(StaffTimes, SaveStaffTimesSendAway));
             return StaffTimes;
         }
     }
