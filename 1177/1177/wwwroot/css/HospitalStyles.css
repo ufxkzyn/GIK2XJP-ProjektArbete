@@ -1,0 +1,144 @@
+
+/*Hospital css*/
+
+.login-section {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+
+}
+
+.login-wrapper {
+    width: 100%;
+    max-width: 850px;
+}
+
+    .login-heading h1 {
+        color: #183b60;
+        font-size: 38px;
+        font-weight: 700;
+        margin: 12px 0;
+    }
+
+    .login-heading p {
+        color: #718096;
+        font-size: 15px;
+    }
+
+.login-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.login-card {
+    display: block;
+    text-decoration: none;
+    background: #fff;
+    padding: 30px;
+    border-radius: 18px;
+    border: 1px solid #e3ebf3;
+    box-shadow: 0 5px 20px rgba(30, 70, 110, 0.05);
+    transition: all 0.3s ease;
+}
+
+.login-card-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.login-icon {
+    width: 58px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+}
+
+.staff-card .login-icon {
+    background: #e6f0fc;
+    color: #2865a5;
+}
+
+.patient-card .login-icon {
+    background: #ddf4f0;
+    color: #168779;
+}
+
+
+
+    .login-info h2 {
+        color: #183b60;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .login-info p {
+        color: #718096;
+        font-size: 13px;
+        margin: 0;
+    }
+
+.login-arrow {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.staff-card .login-arrow {
+    color: #2865a5;
+}
+
+.login-card:hover .login-arrow {
+    transform: translateX(5px);
+}
+
+.login-button {
+    display: block;
+    text-align: center;
+    padding: 13px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 9px;
+}
+
+.staff-card .login-button {
+    background: #2865a5;
+}
+
+.patient-card .login-button {
+    background: #168779;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 35px;
+    color: #718096;
+    font-size: 13px;
+}
+
+    .login-footer i {
+        color: #168779;
+        margin-right: 5px;
+    }
+
+@media (max-width: 650px) {
+    .login-options {
+        grid-template-columns: 1fr;
+    }
+
+    .login-heading h1 {
+        font-size: 29px;
+    }
+
+    .login-section {
+        padding: 40px 18px;
+    }
+}
