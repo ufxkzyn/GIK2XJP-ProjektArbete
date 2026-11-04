@@ -1,18 +1,192 @@
-﻿﻿@{
-ViewData["Title"] = "1337";
+﻿@section Styles {
+    <link rel="stylesheet" href="~/css/Information.css" asp-append-version="true" />
 }
-﻿
+
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Information</title>
+</head>
 
 <body>
-    <h1>
-        Information 
-    </h1>
-    <p>
-        This is the content of Information  page.
-    </p>
-    <h1>Boknings information</h1>
-    <h1>FAQ</h1>
+
+    
+    <section class="hero" id="home">
+        <h2>Welcome to the general information tabs for all the hospitals using our services</h2>
+        <p>
+            We are committed to providing high-quality healthcare
+            and professional medical services quickly and efficiently. Our experienced staff
+            work together to ensure that every patient receives
+            will ensure patient gets the care and support they need.
+        </p>
+        <nav>
+            <a href="#information">Information</a>
+            <a href="#booking">Booking</a>
+            <a href="#departments">Departments</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </section>
+   
+
+    <div class="container">
+
+        <!-- General Information -->
+        <section class="section" id="information">
+            <h2>Hospital Information</h2>
+
+            <p>
+                City General Hospital provides a wide range of healthcare
+                services for patients of all ages. Our goal is to deliver
+                safe, accessible and reliable medical care.
+            </p>
+
+            <p>
+                Our hospitals offers modern medical facilities, experienced
+                healthcare professionals and dedicated patient support.
+            </p>
+
+            <p><strong>Visiting hours:</strong> 09:00 - 18:00</p>
+            <p><strong>Reception:</strong> Open Monday - Sunday</p>
+            <p><strong>Emergency department:</strong> Open 24 hours</p>
+        </section>
+
+        <!-- Booking Information -->
+        <section class="section" id="booking">
+            <h2>Booking Information</h2>
+
+            <p>
+                Patients can book appointments with our doctors
+                through the hospital reception or online booking service.
+            </p>
+
+            <p><strong>How to book an appointment:</strong></p>
+
+            <ol>
+                <li>Contact the hospital reception.</li>
+                <li>Choose the medical department you need.</li>
+                <li>Select an available appointment time.</li>
+                <li>Provide your necessary patient information.</li>
+                <li>Receive your appointment confirmation.</li>
+            </ol>
+
+            <p>
+                Please arrive approximately 15 minutes before
+                your scheduled appointment.
+            </p>
+        </section>
+
+        <!-- Departments -->
+        <section class="section" id="departments">
+            <h2>Our Medical Departments</h2>
+
+            <p>
+                We provide healthcare services across several
+                specialized medical departments.
+            </p>
+
+            <div class="departments">
+
+                <div class="department">
+                    <h3>Emergency Care</h3>
+                    <p>
+                        Medical assistance for urgent injuries
+                        and serious health conditions.
+                    </p>
+                </div>
+
+                <div class="department">
+                    <h3>Cardiology</h3>
+                    <p>
+                        Diagnosis and treatment of heart
+                        and cardiovascular conditions.
+                    </p>
+                </div>
+
+                <div class="department">
+                    <h3>Pediatrics</h3>
+                    <p>
+                        Healthcare services for infants,
+                        children and adolescents.
+                    </p>
+                </div>
+
+                <div class="department">
+                    <h3>General Medicine</h3>
+                    <p>
+                        General medical examinations,
+                        consultations and treatment.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section" id="faq">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+
+            <div class="faq-item">
+                <h3>1. How can I book an appointment?</h3>
+                <p>
+                    You can book an appointment by contacting
+                    our reception or using our online booking service.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>2. What should I bring to my appointment?</h3>
+                <p>
+                    Please bring valid identification, relevant
+                    medical documents and any required referral. No guns 
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>3. Is the emergency department open 24 hours?</h3>
+                <p>
+                    Yes, our emergency department is available
+                    24 hours a day.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>4. Can I change or cancel my appointment?</h3>
+                <p>
+                    Yes, you can change or cancel by contacting our reception at least 24 hours before your scheduled appointment
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>5. Can family members visit patients?</h3>
+                <p>
+                    Family members are welcome to visit patients during visiting hours. Please check with the hospital for any specific visiting policies.
+                </p>
+            </div>
+			<div class="faq-item">
+				<h3>6. what happens if i miss my appointment? </h3>
+				<p>
+					A small fine will be charaged to your account and you will be required to reschedule your appointment.
+				</p>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <h2>Contact Information</h2>
+
+            <div class="contact-info">
+                <p><strong>Hospital:</strong> City General Hospital</p>
+                <p><strong>Address:</strong> 123 Healthcare Street, City</p>
+                <p><strong>Telephone:</strong> 0123-456-789</p>
+                <p><strong>Email:</strong> info@hospital.com</p>
+                <p><strong>Opening hours:</strong> Monday - Sunday</p>
+            </div>
+        </section>
+
+    </div>
+
 </body>
-
-
+</html>

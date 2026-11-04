@@ -1,0 +1,63 @@
+
+/*
+   STAFF GLOBAL THEME
+*/
+
+/* BACKGROUND */
+.staff-theme {
+    background-color: #f2f7fc;
+    color: #263747;
+}
+
+/*
+   HEADER / NAVIGATION
+*/
+
+    .staff-theme .site-header {
+        background-color: #1769aa;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    }
+
+        .staff-theme .site-header .logo-1177 {
+            background-color: #fff;
+            color: #1769aa;
+        }
+
+        .staff-theme .site-header .nav-link {
+            color: #fff !important;
+        }
+
+            .staff-theme .site-header .nav-link:hover,
+            .staff-theme .site-header .nav-link:focus {
+                background-color: rgba(255, 255, 255, 0.16);
+            }
+
+        .staff-theme .site-header .navbar-toggler {
+            border-color: rgba(255, 255, 255, 0.7);
+        }
+
+            .staff-theme .site-header .navbar-toggler:focus {
+                box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
+            }
+
+        .staff-theme .site-header .navbar-toggler-icon {
+            filter: brightness(0) invert(1);
+        }
+
+    /* STAFF HEADINGS */
+    .staff-theme h1,
+    .staff-theme h2,
+    .staff-theme h3 {
+        color: #1769aa;
+    }
+
+    /* STAFF BUTTONS */
+    .staff-theme .btn-primary {
+        background-color: #1769aa;
+        border-color: #1769aa;
+    }
+
+        .staff-theme .btn-primary:hover {
+            background-color: #104c80;
+            border-color: #104c80;
+        }

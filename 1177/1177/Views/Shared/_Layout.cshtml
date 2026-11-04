@@ -1,15 +1,27 @@
 ﻿﻿<!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - _1337</title>
+
+    <title>@ViewData["Title"] - _1177</title>
 
     <script type="importmap"></script>
 
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/_1337.styles.css" asp-append-version="true" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet"
+          href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Global CSS -->
+    <link rel="stylesheet"
+          href="~/css/site.css"
+          asp-append-version="true" />
+
+    <!-- Page-specific CSS -->
+    @await RenderSectionAsync("Styles", required: false)
+
 </head>
 
 <body>
@@ -20,7 +32,7 @@
                 <a class="navbar-brand logo-demo"
                    asp-controller="Home"
                    asp-action="Index">
-                    <span class="logo-1337">1337</span>
+                    <span class="logo-1177">1177</span>
                 </a>
                 
 
@@ -72,7 +84,7 @@
 <!-- Footer -->
 <footer class="border-top footer text-muted">
     <div class="container">
-        &copy; 2026 - _1337 -
+        &copy; 2026 - _1177 -
         <a asp-area="Privacy"
            asp-controller="Privacy"
                asp-action="Index">Privacy</a>
