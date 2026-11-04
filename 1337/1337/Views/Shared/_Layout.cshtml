@@ -1,28 +1,55 @@
-﻿﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
+
+@{
+    var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+    var isStaffArea = currentController == "Staff";
+}
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - _1337</title>
+
+    <title>@ViewData["Title"] - _1177</title>
 
     <script type="importmap"></script>
 
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/_1337.styles.css" asp-append-version="true" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet"
+          href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Global CSS -->
+    <link rel="stylesheet"
+          href="~/css/site.css"
+          asp-append-version="true" />
+
+    <!-- Staff CSS overrides -->
+    @if (isStaffArea)
+    {
+        <link rel="stylesheet"
+              href="~/css/Staff_login.css"
+              asp-append-version="true" />
+    }
+
+    <!-- Page-specific CSS -->
+    @await RenderSectionAsync("Styles", required: false)
+
 </head>
 
-<body>
+<body class="@(isStaffArea ? "staff-theme" : "")">
 
     <header class="site-header">
         <nav class="navbar navbar-expand-sm">
             <div class="container-fluid">
+
                 <a class="navbar-brand logo-demo"
                    asp-controller="Home"
                    asp-action="Index">
-                    <span class="logo-1337">1337</span>
+
+                    <span class="logo-1177">1177</span>
+
                 </a>
-                
 
                 <button class="navbar-toggler"
                         type="button"
@@ -31,12 +58,14 @@
                         aria-controls="mainNavbar"
                         aria-expanded="false"
                         aria-label="Toggle navigation">
+
                     <span class="navbar-toggler-icon"></span>
+
                 </button>
+
             </div>
         </nav>
     </header>
-
 
     <!-- Mobile navigation button -->
     <button class="navbar-toggler"
@@ -46,43 +75,64 @@
             aria-controls="mainNavbar"
             aria-expanded="false"
             aria-label="Toggle navigation">
+
         <span class="navbar-toggler-icon"></span>
+
     </button>
 
     <div class="navbar-collapse collapse" id="mainNavbar">
+
         <ul class="navbar-nav flex-grow-1">
+
             <li class="nav-item">
+
                 <a class="nav-link text-dark"
                    asp-area=""
                    asp-controller="Home"
                    asp-action="Hem">
+
                     Home
+
                 </a>
+
             </li>
+
         </ul>
+
     </div>
 
-<!-- Main page content -->
-<div class="container">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-</div>
-
-<!-- Footer -->
-<footer class="border-top footer text-muted">
+    <!-- Main page content -->
     <div class="container">
-        &copy; 2026 - _1337 -
-        <a asp-area="Privacy"
-           asp-controller="Privacy"
-               asp-action="Index">Privacy</a>
+
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+
     </div>
-</footer>
 
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
+    <!-- Footer -->
+    <footer class="border-top footer text-muted">
 
-@await RenderSectionAsync("Scripts", required: false)
+        <div class="container">
+
+            © 2026 - _1177 -
+
+            <a asp-area="Privacy"
+               asp-controller="Privacy"
+               asp-action="Index">Privacy</a>
+
+        </div>
+
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/js/site.js"
+            asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>
