@@ -1,5 +1,10 @@
 ﻿@model System.Text.Json.Nodes.JsonNode
 
+@{
+    var bookings = ViewBag.Bookings as List<System.Text.Json.Nodes.JsonObject> ?? new();
+    var roomPicked = ViewBag.RoomPicked as string;
+}
+
 <div class="card mb-3">
     <div class="card-body">
         <h5 class="card-title">@Model["Patient"]</h5>
@@ -9,7 +14,7 @@
 </div>
 
 <form asp-controller="Staff" asp-action="OpenPatientRequest" method="post">
-    <p>Prioritet:1 är högst prioritet</p>
+    <p>Prioritet: 1 är högst prioritet</p>
     <input type="radio" name="priority" value="1" required /> 1
     <input type="radio" name="priority" value="2" /> 2
     <input type="radio" name="priority" value="3" /> 3
@@ -21,3 +26,42 @@
 
     <button type="submit" class="btn btn-primary">Spara</button>
 </form>
+
+<form asp-action="StaffRequestRead" method="get" class="mt-4">
+    <select name="roomPicked" class="form-select" onchange="this.form.submit()">
+        <option value="Akutrum" selected="@(roomPicked == "Akutrum")">Akutrum</option>
+        <option value="TreatmentRoom" selected="@(roomPicked == "TreatmentRoom")">Treatment</option>
+        <option value="Behandlingsrum" selected="@(roomPicked == "Behandlingsrum")">Behandlingsrum</option>
+    </select>
+</form>
+
+<table class="table">
+    <tr>
+        <th>Rum</th>
+        <th>Dag</th>
+        <th>Tid</th>
+        <th>Personnummer</th>
+        <th></th>
+    </tr>
+    @foreach (var b in bookings)
+    {
+        <tr>
+            <td>@b["rum"]</td>
+            <td>@b["dag"]</td>
+            <td>@b["tid"]</td>
+            <td>@(b["personnummer"]?.ToString() ?? "Ledig")</td>
+            <td>
+                @if (b["personnummer"] is null)
+                {
+                    <form asp-action="BookRoom" method="post">
+                        <input type="hidden" name="roomPicked" value="@roomPicked" />
+                        <input type="hidden" name="rum" value="@b["rum"]" />
+                        <input type="hidden" name="dag" value="@b["dag"]" />
+                        <input type="hidden" name="tid" value="@b["tid"]" />
+                        <button type="submit" class="btn btn-sm btn-success">Boka</button>
+                    </form>
+                }
+            </td>
+        </tr>
+    }
+</table>
