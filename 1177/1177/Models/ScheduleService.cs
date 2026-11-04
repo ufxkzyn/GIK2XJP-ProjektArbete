@@ -1,13 +1,12 @@
 using System.Text.Json;
-using _1337.Models;
 
-namespace _1337.Services
+namespace _1337.Models
 {
     public class ScheduleService
     {
         private List<Staff> LoadStaff()
         {
-            List<LoadStaff> allStaff = new List<Staff>();
+            List<Staff> allStaff = new List<Staff>();
 
             string[] files =
             {
@@ -22,17 +21,16 @@ namespace _1337.Services
 
                 string json = File.ReadAllText(path);
 
-                List<Staff> staff =
-                    JsonSerializer.Deserialize<List<Staff>>(json); // omvandlar json till en lista av staff objekt
+                List<Staff> staff = JsonSerializer.Deserialize<List<Staff>>(json); // omvandlar json till en lista av staff objekt
 
                 allStaff.AddRange(staff); // lägger till alla staff objekt till allStaff listan
             }
             return allStaff;
         }
 
-        private List<Room> LoadRooms()
+        private List<AppointmentSlot> LoadRooms()
         {
-            List<Room> allRooms = new List<Room>();
+            List<AppointmentSlot> allRooms = new List<AppointmentSlot>();
 
             string [] files =
             {
@@ -47,10 +45,9 @@ namespace _1337.Services
 
                 string json = File.ReadAllText(path);
 
-                List<Room> rooms =
-                   JsonSerializer.Deserialize<List<Room>>(json); // omvandlar json till en lista av room objekt
+                List<AppointmentSlot> rooms = JsonSerializer.Deserialize<List<AppointmentSlot>>(json); // omvandlar json till en lista av room objekt
 
-                allRoom.AddRange(rooms); // lägger till alla staff objekt till allRooms listan
+                allRooms.AddRange(rooms); // lägger till alla staff objekt till allRooms listan
             }
             return allRooms;
         }

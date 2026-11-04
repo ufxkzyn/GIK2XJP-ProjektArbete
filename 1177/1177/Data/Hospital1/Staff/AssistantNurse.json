@@ -1,5 +1,5 @@
-[
-  {
+{
+  "199511055429": {
     "PersonNr": "199511055429",
     "FirstName": "Lina",
     "LastName": "Ek",
@@ -15,7 +15,7 @@
     "Söndag": "Ledig",
     "Roll": "Undersköterska"
   },
-  {
+  "198502283198": {
     "PersonNr": "198502283198",
     "FirstName": "Peter",
     "LastName": "Sjöberg",
@@ -31,7 +31,7 @@
     "Söndag": "13-22",
     "Roll": "Undersköterska"
   },
-  {
+  "199009176265": {
     "PersonNr": "199009176265",
     "FirstName": "Fatima",
     "LastName": "Karimi",
@@ -47,4 +47,4 @@
     "Söndag": "21-07",
     "Roll": "Undersköterska"
   }
-]
+}

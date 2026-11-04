@@ -15,6 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\ScheduleService.cs" />
+    <Compile Remove="Models\StaffAvailableTimes.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 
