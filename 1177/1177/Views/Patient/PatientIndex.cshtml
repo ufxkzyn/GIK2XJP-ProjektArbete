@@ -1,20 +1,41 @@
-﻿@model (DateTime Date, string Name)
+﻿@section Styles {
+    <link rel="stylesheet" href="~/css/Patient_home.css" asp-append-version="true" />
+}
+@model (DateTime Date, string Name)
 
-<header>
-    <h1>Välkommen till din startsida @Model.Name, Dagens datum är @Model.Date: vad vill du göra?</h1>
-</header>
+<div class="patient-home">
 
+    <header class="patient-welcome">
+        <h1>
+            Välkommen till din startsida @Model.Name!
+        </h1>
 
-<div>
-    <a class="btn btn-primary" asp-area="" asp-controller="Patient" asp-action="PatientRequest">Skicka en ny behandlingsförfrågan</a>
-</div>
+        <p>
+            Dagens datum är @Model.Date.ToString("yyyy-MM-dd").
+            Vad vill du göra?
+        </p>
+    </header>
 
+    <div class="patient-actions">
 
-<div>
-    <a class="btn btn-primary" asp-area="" asp-controller="Patient" asp-action="empty">Visa dina Bokade tider</a>
-</div>
+        <a class="btn btn-primary"
+           asp-controller="Patient"
+           asp-action="PatientRequest">
+            Skicka en ny behandlingsförfrågan
+        </a>
 
+        <a class="btn btn-primary"
+           asp-controller="Patient"
+           asp-action="empty">
+            Visa dina bokade tider
+        </a>
 
-<div>
-    <a class="btn btn-primary" asp-area="" asp-controller="Patient" asp-action="PatientLogout">Logga ut</a>
+        <a class="btn btn-primary"
+           asp-controller="Patient"
+           asp-action="PatientLogout">
+            Logga ut
+        </a>
+
+    </div>
+
 </div>

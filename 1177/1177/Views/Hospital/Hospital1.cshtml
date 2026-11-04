@@ -1,13 +1,81 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@section styles {
+	<link rel="stylesheet" href="~/css/HospitalStyles.css" />
 }
 
-<div>
-    <a class="btn btn-primary" asp-area="" asp-controller="Staff" asp-action="StaffLogin">Vårdpersonal</a>
-</div>
+<section class="login-section">
 
-<div>
-    <a class="btn btn-primary" asp-area="" asp-controller="Patient" asp-action="PatientLogin">Patient</a>
-</div>
+    <div class="login-wrapper">
+
+        <div class="login-heading">
+            <span class="welcome-label">SECURE ACCESS</span>
+            <h1>Choose your login</h1>
+            <p>Select your account type to continue to our healthcare services.</p>
+        </div>
+
+        <div class="login-options">
+
+            <!-- Staff Login -->
+            <a class="login-card staff-card"
+               asp-area=""
+               asp-controller="Staff"
+               asp-action="StaffLogin">
+
+                <div class="login-card-content">
+
+                    <div class="login-icon">
+                        <i class="bi bi-hospital"></i>
+                    </div>
+
+                    <div class="login-info">
+                        <h2>Vårdpersonal</h2>
+                        <p>Access for healthcare professionals</p>
+                    </div>
+
+                    <i class="bi bi-arrow-right login-arrow"></i>
+
+                </div>
+
+                <span class="login-button">
+                    Continue as staff
+                </span>
+
+            </a>
+
+            <!-- Patient Login -->
+            <a class="login-card patient-card"
+               asp-area=""
+               asp-controller="Patient"
+               asp-action="PatientLogin">
+
+                <div class="login-card-content">
+
+                    <div class="login-icon">
+                        <i class="bi bi-person"></i>
+                    </div>
+
+                    <div class="login-info">
+                        <h2>Patient</h2>
+                        <p>Access for patients</p>
+                    </div>
+
+                    <i class="bi bi-arrow-right login-arrow"></i>
+
+                </div>
+
+                <span class="login-button">
+                    Continue as patient
+                </span>
+
+            </a>
+
+        </div>
+
+        <div class="login-footer">
+            <i class="bi bi-shield-check"></i>
+            Secure healthcare access
+        </div>
+
+    </div>
+
+</section>
+

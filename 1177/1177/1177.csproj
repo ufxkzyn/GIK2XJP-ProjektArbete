@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\css\Login.css" />
+    <None Include="wwwroot\css\Information.css" />
     <None Include="wwwroot\Images\Doctor.png" />
   </ItemGroup>
 
