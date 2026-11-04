@@ -8,20 +8,16 @@ namespace _1337.Models
     {
         public void GetUserInformation(string userId, string dataPath)
         {
-            var usersData = JsonNode.Parse(File.ReadAllText(dataPath));
 
-            JsonNode? CurrentUser = null;
-            foreach (var person in usersData.AsArray())
+            var usersData = JsonNode.Parse(File.ReadAllText(dataPath))?.AsObject();
+
+        
+            if (usersData != null && usersData.TryGetPropertyValue(userId, out JsonNode? currentUser))
             {
-                if (person["PersonNr"].ToString() == userId)
-                {
-                    CurrentUser = person;
-                    break;
-                }
+                string Tojson = JsonSerializer.Serialize(currentUser, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText("Data/CurrentUser.json", Tojson);
             }
-
-            string Tojson = JsonSerializer.Serialize(CurrentUser, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText("Data/CurrentUser.json", Tojson);
         }
+
     }
 }

@@ -4,10 +4,12 @@ using _1337.Models;
 
 namespace _1337.Models
 {
-    // Exists to decouple the JSON file and the login method.
     public static class AuthService
     {
-        public static async Task<bool> ValidateAsync<T>(string relativePath, Func<T, bool> match)
+        public static async Task<bool> ValidateAsync<T>(
+            string relativePath, 
+            string targetKey, 
+            Func<T, bool> validate)
         {
             string path = Path.Combine(AppContext.BaseDirectory, relativePath);
 
@@ -18,9 +20,17 @@ namespace _1337.Models
 
             string json = await File.ReadAllTextAsync(path);
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-            var list = JsonSerializer.Deserialize<List<T>>(json, options);
+            
+     
+            var dict = JsonSerializer.Deserialize<Dictionary<string, T>>(json, options);
 
-            return list?.Any(match) ?? false;
+  
+            if (dict != null && dict.TryGetValue(targetKey, out var item))
+            {
+                return validate(item);
+            }
+
+            return false;
         }
     }
 }

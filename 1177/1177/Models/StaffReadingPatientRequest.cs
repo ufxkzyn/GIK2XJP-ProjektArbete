@@ -21,8 +21,6 @@ namespace _1337.Models
             }
 
             var Patient = CurrentPatientRequest["Patient"];
-            var Request = CurrentPatientRequest["Request"];
-            var Date = CurrentPatientRequest["Date"];
 
             var Priority = priority;
             var AddiontalComment = staffComment;
@@ -30,7 +28,7 @@ namespace _1337.Models
 
             var RequestAndfinish = new JsonObject
             {
-                ["Patient"] = Patient,
+                ["Patient"] = Patient?.DeepClone(),
                 ["Date"] = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
                 ["Priority"] = Priority,
                 ["AdditionalComment"] = AddiontalComment

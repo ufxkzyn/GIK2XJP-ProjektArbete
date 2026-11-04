@@ -5,13 +5,14 @@ namespace _1337.StaffLogin
 {
     public class StaffLogin
     {
-        public static async Task<IActionResult> ExecuteStaffLoginAsync(Controller controller, string staffId, string staffPW)
+    public static async Task<IActionResult> ExecuteStaffLoginAsync(Controller controller, string staffId, string staffPW)
         {
-
             bool isCorrect = await AuthService.ValidateAsync<Staff>(
-                Path.Combine("Data", "Staff", "AllStaff.json"),
-                s => s.PersonNr == staffId && s.Password == staffPW
-            );
+                Path.Combine("Data", "Staaff", "AllStaff.json"),
+                staffId,                                  
+                p => p.Password == staffPW        
+                );
+
 
             if (isCorrect)
             {

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "199001011234": {
     "PersonNr": "199001011234",
     "FirstName": "Dog",
     "LastName": "Nuh",
@@ -7,4 +7,4 @@
     "Email": "testing@hotmail.com",
     "PhoneNr": "070-3142124"
   }
-]
+}

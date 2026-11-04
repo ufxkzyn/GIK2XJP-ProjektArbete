@@ -9,8 +9,9 @@ namespace _1337.PatientLogin
         {
             bool isCorrect = await AuthService.ValidateAsync<Patient>(
                 Path.Combine("Data", "Patient", "PatientData.json"),
-                p => p.PersonNr == patientId && p.Password == patientPW
-            );
+                patientId,                                  
+                p => p.Password == patientPW        
+                );
 
             if (isCorrect)
             {
