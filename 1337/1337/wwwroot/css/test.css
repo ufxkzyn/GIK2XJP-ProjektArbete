@@ -1,0 +1,46 @@
+﻿.staff-card {
+    margin-bottom: 2rem;
+}
+
+    .staff-card h2 {
+        font-size: 1.25rem;
+        margin-bottom: .5rem;
+    }
+
+.schedule {
+    border-collapse: collapse;
+    font-size: .75rem;
+}
+
+    .schedule th {
+        padding: .25rem .5rem;
+        font-weight: 500;
+        text-align: left;
+    }
+
+    .schedule thead th {
+        text-align: center;
+        padding: .25rem 0;
+    }
+
+    .schedule td {
+        width: 1.6rem;
+        height: 1.6rem;
+        border: 1px solid #fff;
+    }
+
+.on {
+    background: #2e7d32;
+}
+
+.off {
+    background: #e9ecef;
+}
+
+.legend .cell {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    margin: 0 .25rem 0 .75rem;
+}

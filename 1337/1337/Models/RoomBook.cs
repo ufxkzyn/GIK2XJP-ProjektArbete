@@ -6,37 +6,38 @@ namespace _1337.Models
 {
     public class RoomBook
     {
-        public List<JsonObject> GetRoomBookings(string RoomPicked)
+        public List<JsonObject> GetRoomBookings(string? RoomPicked)
         {
             var bookingEntries = new List<JsonObject>();
-
+            System.IO.File.WriteAllText("Data/temp/RoomTimes.json", "{ }");
             switch (RoomPicked)
             {
-                case "Akutrum":
-                {
-                    var CurrentRoomType = JsonNode.Parse(File.ReadAllText("Data/Hospital1/Rooms/EmergencyRooms.json"));
-
-                    foreach (var room in CurrentRoomType!.AsObject())
+                case "EmergencyRooms":
                     {
-                        foreach (var day in room.Value!.AsObject())
+                        var CurrentRoomType = JsonNode.Parse(File.ReadAllText("Data/Hospital1/Rooms/EmergencyRooms.json"));
+
+                        foreach (var room in CurrentRoomType!.AsObject())
                         {
-                            if (day.Key == "RumNr") continue;
-                            foreach (var time in day.Value!.AsObject())
+                            foreach (var day in room.Value!.AsObject())
                             {
-                                var TimeBookedFin = new JsonObject
+                                if (day.Key == "RumNr") continue;
                                 {
-                                    ["rum"] = room.Key,
-                                    ["dag"] = day.Key,
-                                    ["tid"] = time.Key,
-                                    ["personnummer"] = time.Value?.ToString()
-                                };
-                                bookingEntries.Add(TimeBookedFin);
+                                    foreach (var time in day.Value!.AsObject())
+                                    {
+                                        var TimeBookedFin = new JsonObject
+                                        {
+                                            ["rum"] = room.Key,
+                                            ["dag"] = day.Key,
+                                            [time.Key] = "Ledig"
+                                        };
+
+                                        bookingEntries.Add(TimeBookedFin);
+                                    }
+                                }
                             }
                         }
+                        break;
                     }
-
-                    break;
-                }
 
                 case "TreatmentRoom":
                     {
@@ -47,17 +48,18 @@ namespace _1337.Models
                             foreach (var day in room.Value!.AsObject())
                             {
                                 if (day.Key == "RumNr") continue;
-                                foreach (var time in day.Value!.AsObject())
                                 {
-                                    var TimeBookedFin = new JsonObject
+                                    foreach (var time in day.Value!.AsObject())
                                     {
-                                        ["rum"] = room.Key,
-                                        ["dag"] = day.Key,
-                                        ["tid"] = time.Key,
-                                        ["personnummer"] = time.Value?.ToString()
-                                    };
+                                        var TimeBookedFin = new JsonObject
+                                        {
+                                            ["rum"] = room.Key,
+                                            ["dag"] = day.Key,
+                                            [time.Key] = "Ledig"
+                                        };
 
-                                    bookingEntries.Add(TimeBookedFin);
+                                        bookingEntries.Add(TimeBookedFin);
+                                    }
                                 }
                             }
                         }
@@ -65,7 +67,7 @@ namespace _1337.Models
                         break;
                     }
 
-                case "Behandlingsrum":
+                case "ExaminationRooms":
                     {
                         var CurrentRoomType = JsonNode.Parse(File.ReadAllText("Data/Hospital1/Rooms/ExaminationRooms.json"));
 
@@ -74,25 +76,28 @@ namespace _1337.Models
                             foreach (var day in room.Value!.AsObject())
                             {
                                 if (day.Key == "RumNr") continue;
-                                foreach (var time in day.Value!.AsObject())
                                 {
-                                    var TimeBookedFin = new JsonObject
+                                    foreach (var time in day.Value!.AsObject())
                                     {
-                                        ["rum"] = room.Key,
-                                        ["dag"] = day.Key,
-                                        ["tid"] = time.Key,
-                                        ["personnummer"] = time.Value?.ToString()
-                                    };
+                                        var TimeBookedFin = new JsonObject
+                                        {
+                                            ["rum"] = room.Key,
+                                            ["dag"] = day.Key,
+                                            [time.Key] = "Ledig"
+                                        };
 
-                                    bookingEntries.Add(TimeBookedFin);
+                                        bookingEntries.Add(TimeBookedFin);
+                                    }
                                 }
                             }
+                            break;
                         }
-
                         break;
                     }
-            }
-            return bookingEntries;
+                }
+                var SaveRoomBookSend = new JsonSerializerOptions { WriteIndented = true };
+                File.WriteAllText("Data/temp/RoomTimes.json", JsonSerializer.Serialize(bookingEntries, SaveRoomBookSend));
+                return bookingEntries;
         }
     }
 }

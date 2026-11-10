@@ -1,0 +1,52 @@
+﻿@model System.Text.Json.Nodes.JsonNode
+@{
+    ViewData["Title"] = "Patientförfrågan";
+    var bookings = ViewBag.Bookings as List<System.Text.Json.Nodes.JsonObject> ?? new();
+    var Staffbooking = ViewBag.Staffbooking as List<System.Text.Json.Nodes.JsonObject> ?? new();
+    var StaffPicked = ViewBag.StaffPicked as string;
+    var roomPicked = ViewBag.RoomPicked as string;
+
+    var roomTypes = new Dictionary<string, string>
+    {
+        ["EmergencyRooms"] = "Akutrum",
+        ["TreatmentRoom"] = "BehandlingsRum",
+        ["ExaminationRooms"] = "Undersökningsrum"
+    };
+    var StaffTypeConfused = new Dictionary<string, string>
+    {
+        ["Doctors"] = "Läkare",
+        ["Nurses"] = "Sjuksköterska",
+        ["AssistantNurse"] = "Undersköterska"
+    };
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/test.css" asp-append-version="true" />
+}
+
+<form asp-action="Index" method="get" class="mb-4">
+
+    @* ---------- Room type picker ---------- *@
+    <div class="mb-3">
+        <label for="roomPicked" class="form-label">Rumstyp</label>
+        <select id="roomPicked" name="roomPicked" class="form-select" onchange="this.form.submit()">
+            <option value="" disabled selected="@(roomPicked is null)">Välj rumstyp</option>
+            @foreach (var (value, label) in roomTypes)
+            {
+                <option value="@value" selected="@(roomPicked == value)">@label</option>
+            }
+        </select>
+    </div>
+
+    @* ---------- Staff type picker ---------- *@
+    <div class="mb-3">
+        <label for="StaffPicked" class="form-label">Arbetsroll</label>
+        <select id="StaffPicked" name="StaffType" class="form-select" onchange="this.form.submit()">
+            <option value="" disabled selected="@(StaffPicked is null)">Välj Arbetsroll</option>
+            @foreach (var (value, label) in StaffTypeConfused)
+            {
+                <option value="@value" selected="@(StaffPicked == value)">@label</option>
+            }
+        </select>
+    </div>
+</form>

@@ -1,77 +1,94 @@
-﻿@model Dictionary<string, System.Text.Json.JsonElement>
+﻿@using System.Text.Json.Nodes
+@model List<JsonObject>
+@{
+    string[] days = { "Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag" };
+    string[] hours = Enumerable.Range(0, 24).Select(h => $"{h:00}-{(h + 1) % 24:00}").ToArray();
+    var roomPicked = ViewBag.RoomPicked as string;
 
-<h2>"Room details"</h2>
-<input type="hidden" name="staffComment" value="@ViewBag.StaffComment" />
-<form asp-controller="Staff"
-      asp-action="OpenPatientRequest"
-      method="post">
-
-    <input type="hidden" name="priority" value="@ViewBag.Priority" />
-    <input type="hidden" name="staffComment" value="@ViewBag.StaffComment" />
-
-    @foreach (var room in Model)
+    var lookup = new Dictionary<(string, string, string), string?>();
+    foreach (var e in Model)
     {
-        var roomId = room.Key;
-        var roomData = room.Value;
+        string rum = e["rum"]?.ToString() ?? "";
+        string dag = e["dag"]?.ToString() ?? "";
+        string tid = e["tid"]?.ToString() ?? "";
+        lookup[(rum, dag, tid)] = e["personnummer"]?.ToString();
+    }
+    var rooms = Model.Select(e => e["rum"]?.ToString() ?? "").Distinct().ToList();
+}
 
-        <div class="card mb-3">
-            <div class="card-body">
+<style>
+    .room-schedule { margin-top: 1.5rem; }
+    .room-schedule h2 { font-size: 1.25rem; margin: 0 0 .5rem; }
+    .room-schedule .room-card { margin-bottom: 2rem; }
+    .room-schedule form { all: unset; display: block; }
+    .room-schedule .schedule { border-collapse: collapse; font-size: .75rem; }
+    .room-schedule .schedule th { padding: .25rem .5rem; font-weight: 500; text-align: left; white-space: nowrap; }
+    .room-schedule .schedule thead th { text-align: center; padding: .25rem 0; min-width: 1.6rem; }
+    .room-schedule .schedule td { width: 1.6rem; height: 1.6rem; padding: 0; border: 1px solid #fff; }
+    .room-schedule .slot { all: unset; box-sizing: border-box; display: block; width: 100%; height: 1.6rem; }
+    .room-schedule .slot.free { background: #e9ecef; cursor: pointer; }
+    .room-schedule .slot.free:hover { background: #2e7d32; }
+    .room-schedule .slot.booked { background: #0d47a1; }
+    .room-schedule .legend .cell { display: inline-block; width: 1rem; height: 1rem; vertical-align: middle; margin: 0 .25rem 0 .75rem; }
+    .room-schedule .legend .cell.free { background: #e9ecef; }
+    .room-schedule .legend .cell.booked { background: #0d47a1; }
+</style>
 
-                <h5 class="card-title">
-                    Room @roomId
-                </h5>
+<div class="room-schedule">
+    <p class="legend">
+        <span class="cell free"></span> Ledig (klicka för att boka)
+        <span class="cell booked"></span> Bokad
+    </p>
 
-                <label>
-                    <input type="radio"
-                           name="roomId"
-                           value="@roomId"
-                           required />
-                    Select this room
-                </label>
-
-                <hr />
-
-                <h6>Available days and hours:</h6>
-
-                @foreach (var day in roomData.EnumerateObject())
-                {
-                    if (day.Name == "RumNr")
-                    {
-                        continue;
-                    }
-
-                    var availableHours = day.Value
-                        .EnumerateObject()
-                        .Where(hour =>
-                            hour.Value.ValueKind ==
-                            System.Text.Json.JsonValueKind.Null)
-                        .Select(hour => hour.Name)
-                        .ToList();
-
-                    <div class="mb-2">
-                        <strong>@day.Name:</strong>
-
-                        @if (availableHours.Any())
-                        {
-                            <span class="text-success">
-                                @string.Join(", ", availableHours)
-                            </span>
-                        }
-                        else
-                        {
-                            <span class="text-danger">
-                                Fully occupied
-                            </span>
-                        }
-                    </div>
-                }
-
-            </div>
-        </div>
+    @if (rooms.Count == 0)
+    {
+        <p>Inga rum hittades.</p>
     }
 
-    <button type="submit" class="btn btn-primary">
-        Confirm room
-    </button>
-
-</form>
+    @foreach (var roomNr in rooms)
+    {
+        <section class="room-card">
+            <h2>Rum @roomNr</h2>
+            <form method="post">
+                <div class="table-responsive">
+                    <table class="schedule">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                @foreach (var h in hours) { <th>@h[..2]</th> }
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var d in days)
+                            {
+                                <tr>
+                                    <th>@d</th>
+                                    @foreach (var h in hours)
+                                    {
+                                        bool exists = lookup.TryGetValue((roomNr, d, h), out var pnr);
+                                        bool free = exists && (string.IsNullOrEmpty(pnr) || pnr == "Ledig");
+                                        <td>
+                                            @if (free)
+                                            {
+                                                <button type="submit" class="slot free" title="Boka @d @h"
+                                                        asp-action="BookRoom"
+                                                        asp-route-roomPicked="@roomPicked"
+                                                        asp-route-rum="@roomNr"
+                                                        asp-route-dag="@d"
+                                                        asp-route-tid="@h"></button>
+                                            }
+                                            else
+                                            {
+                                                <span class="slot booked" title="Bokad @d @h"></span>
+                                            }
+                                        </td>
+                                    }
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+        </section>
+    }
+</div>
