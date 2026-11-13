@@ -7,10 +7,8 @@ namespace _1337.Models
 {
     public class CheckAvailabilityStaff
     {
-        public List<JsonObject> StaffAvailability(string StaffType, out string StaffTimesOut)
+        public List<JsonObject> StaffAvailability(string StaffType)
         {
-            StaffTimesOut = string.Empty;
-
             var StaffTimes = new List<JsonObject>();
 
             switch (StaffType)

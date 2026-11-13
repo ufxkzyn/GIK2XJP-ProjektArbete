@@ -8,7 +8,7 @@ namespace _1337.Controllers
 {
     public class TestController : Controller
     {
-        public IActionResult Index(string? StaffType, string? roomPicked) 
+        public IActionResult Index(string? StaffType, string? roomPicked)
         {
             ViewBag.StaffType = StaffType;
             ViewBag.RoomPicked = roomPicked;

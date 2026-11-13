@@ -32,9 +32,9 @@
         <select id="roomPicked" name="roomPicked" class="form-select" onchange="this.form.submit()">
             <option value="" disabled selected="@(roomPicked is null)">Välj rumstyp</option>
             @foreach (var (value, label) in roomTypes)
-    {
+            {
                 <option value="@value" selected="@(roomPicked == value)">@label</option>
-    }
+            }
         </select>
     </div>
 
@@ -44,9 +44,9 @@
         <select id="StaffPicked" name="StaffType" class="form-select" onchange="this.form.submit()">
             <option value="" disabled selected="@(StaffPicked is null)">Välj Arbetsroll</option>
             @foreach (var (value, label) in StaffTypeConfused)
-                            {
+            {
                 <option value="@value" selected="@(StaffPicked == value)">@label</option>
-                    }
+            }
         </select>
-        </div>
+    </div>
 </form>
