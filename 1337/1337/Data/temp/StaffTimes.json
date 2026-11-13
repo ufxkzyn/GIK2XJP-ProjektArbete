@@ -1,9 +1,10 @@
 [
   {
     "personnummer": "199203142311",
+    "Roll": "Sjuksköterska",
     "FirstName": "Johan",
     "LastName": "Berg",
-    "M\u00E5ndag": {
+    "Måndag": {
       "00-01": "Semester",
       "01-02": "Semester",
       "02-03": "Semester",
@@ -133,7 +134,7 @@
       "22-23": "Semester",
       "23-00": "Semester"
     },
-    "L\u00F6rdag": {
+    "Lördag": {
       "00-01": "Semester",
       "01-02": "Semester",
       "02-03": "Semester",
@@ -159,7 +160,7 @@
       "22-23": "Semester",
       "23-00": "Semester"
     },
-    "S\u00F6ndag": {
+    "Söndag": {
       "00-01": "Semester",
       "01-02": "Semester",
       "02-03": "Semester",
@@ -188,9 +189,10 @@
   },
   {
     "personnummer": "198807224483",
+    "Roll": "Sjuksköterska",
     "FirstName": "Maria",
     "LastName": "Holm",
-    "M\u00E5ndag": {
+    "Måndag": {
       "00-01": "Semester",
       "01-02": "Semester",
       "02-03": "Semester",
@@ -320,7 +322,7 @@
       "22-23": "Semester",
       "23-00": "Semester"
     },
-    "L\u00F6rdag": {
+    "Lördag": {
       "00-01": "Semester",
       "01-02": "Semester",
       "02-03": "Semester",
@@ -346,7 +348,7 @@
       "22-23": "Semester",
       "23-00": "Semester"
     },
-    "S\u00F6ndag": {
+    "Söndag": {
       "00-01": "Semester",
       "01-02": "Semester",
       "02-03": "Semester",
@@ -375,9 +377,10 @@
   },
   {
     "personnummer": "199306031973",
+    "Roll": "Sjuksköterska",
     "FirstName": "Ali",
     "LastName": "Hassan",
-    "M\u00E5ndag": {
+    "Måndag": {
       "00-01": "Ledig",
       "01-02": "Ledig",
       "02-03": "Ledig",
@@ -507,7 +510,7 @@
       "22-23": "Semester",
       "23-00": "Semester"
     },
-    "L\u00F6rdag": {
+    "Lördag": {
       "00-01": "Semester",
       "01-02": "Semester",
       "02-03": "Semester",
@@ -533,7 +536,7 @@
       "22-23": "Ledig",
       "23-00": "Ledig"
     },
-    "S\u00F6ndag": {
+    "Söndag": {
       "00-01": "Ledig",
       "01-02": "Ledig",
       "02-03": "Ledig",

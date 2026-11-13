@@ -30,18 +30,18 @@ namespace _1337.Controllers
             ViewBag.RoomPicked = roomPicked;
 
             if (roomPicked != null && StaffType != null)
+            { 
                 new MatchRoomAndStaff().MatchRoomAndStaffMethod();
+                ViewBag.FreeStaff = System.IO.File.ReadAllText("Data/temp/WhichStaffIsFree.json");
+            }
 
-            ViewBag.FreeStaff = new StaffBooking().GetFreeJson();
             return View("StaffRequestRead", RequestData);
         }
 
-        [HttpPost]
         public IActionResult ConfirmBooking(string patient, string rum, string dag, string tid,
-                                            string personnummer, string? roomPicked, string? StaffType)
+            string personnummer, string FirstName, string LastName, string Roll, string roomPicked, string StaffType)
         {
-            var (ok, message) = new StaffBooking().Confirm(patient, rum, dag, tid, personnummer);
-            TempData[ok ? "Success" : "Error"] = message;
+            new StaffBooking().ConfirmBooking(patient, rum, dag, tid, FirstName, LastName, Roll);
             return RedirectToAction("StaffRequestRead", new { roomPicked, StaffType });
         }
 
@@ -60,12 +60,6 @@ namespace _1337.Controllers
     public IActionResult BookRoom(string roomPicked, string rum, string dag, string tid)
         {
             return RedirectToAction("StaffRequestRead", new { roomPicked });
-        }
-
-        public IActionResult MatchRoomAndStaff(string StaffType, string RoomPicked)
-        {
-            //new MatchRoomAndStaff().MatchRoomAndStaffMethod(StaffType, RoomPicked);
-            return RedirectToAction("StaffIndex");
         }
     }
 }

@@ -22,6 +22,7 @@ namespace _1337.Models
                             var TimeBookedFin = new JsonObject
                             {
                                 ["personnummer"] = persnr.Key,
+                                ["Roll"] = persnr.Value!["Roll"]?.DeepClone(),
                                 ["FirstName"] = persnr.Value!["FirstName"]?.DeepClone(),
                                 ["LastName"] = persnr.Value!["LastName"]?.DeepClone(),
                                 ["Måndag"] = persnr.Value!["Måndag"]?.DeepClone(),
@@ -44,6 +45,7 @@ namespace _1337.Models
                             var TimeBookedFin = new JsonObject
                             {
                                 ["personnummer"] = persnr.Key,
+                                ["Roll"] = persnr.Value!["Roll"]?.DeepClone(),
                                 ["FirstName"] = persnr.Value!["FirstName"]?.DeepClone(),
                                 ["LastName"] = persnr.Value!["LastName"]?.DeepClone(),
                                 ["Måndag"] = persnr.Value!["Måndag"]?.DeepClone(),
@@ -66,6 +68,7 @@ namespace _1337.Models
                             var TimeBookedFin = new JsonObject
                             {
                                 ["personnummer"] = persnr.Key,
+                                ["Roll"] = persnr.Value!["Roll"]?.DeepClone(),
                                 ["FirstName"] = persnr.Value!["FirstName"]?.DeepClone(),
                                 ["LastName"] = persnr.Value!["LastName"]?.DeepClone(),
                                 ["Måndag"] = persnr.Value!["Måndag"]?.DeepClone(),
@@ -81,7 +84,7 @@ namespace _1337.Models
                         break;
                     }
             }
-            var SaveStaffTimesSendAway = new JsonSerializerOptions { WriteIndented = true };
+            var SaveStaffTimesSendAway = new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
             File.WriteAllText("Data/temp/StaffTimes.json", JsonSerializer.Serialize(StaffTimes, SaveStaffTimesSendAway));
             return StaffTimes;
         }
