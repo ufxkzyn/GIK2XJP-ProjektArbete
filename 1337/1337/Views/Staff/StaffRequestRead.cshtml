@@ -1,65 +1,355 @@
-﻿@model System.Text.Json.Nodes.JsonNode
+﻿@using System.Text.Json.Nodes
+@model JsonNode
 @{
     ViewData["Title"] = "Patientförfrågan";
-    var bookings = ViewBag.Bookings as List<System.Text.Json.Nodes.JsonObject> ?? new();
+
+    var bookings = ViewBag.Bookings as List<JsonObject> ?? new();
     var roomPicked = ViewBag.RoomPicked as string;
+    var StaffPicked = ViewBag.StaffPicked as string;
 
     var roomTypes = new Dictionary<string, string>
     {
-        ["Akutrum"] = "Akutrum",
-        ["TreatmentRoom"] = "Treatment",
-        ["Behandlingsrum"] = "Behandlingsrum"
+        ["EmergencyRooms"] = "Akutrum",
+        ["TreatmentRoom"] = "BehandlingsRum",
+        ["ExaminationRooms"] = "Undersökningsrum"
     };
+    var StaffTypeConfused = new Dictionary<string, string>
+    {
+        ["Doctors"] = "Läkare",
+        ["Nurses"] = "Sjuksköterska",
+        ["AssistantNurse"] = "Undersköterska"
+    };
+
+    // Data comes from WhichStaffIsFree.json (read in the controller)
+    var free = JsonNode.Parse(ViewBag.FreeStaff as string ?? "[]")!
+        .AsArray().Select(n => n!.AsObject()).ToList();
+
+    var weekDays = new[] { "Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag" };
+    var freeRooms = free.Select(f => f["rum"]!.ToString()).Distinct().OrderBy(x => x).ToList();
+    var freeTimes = free.Select(f => f["tid"]!.ToString()).Distinct().OrderBy(x => x).ToList();
 }
 
 @section Styles {
     <link rel="stylesheet" href="~/css/test.css" asp-append-version="true" />
 }
 
-@* ---------- Patient request ---------- *@
-<div class="card mb-3">
-    <div class="card-body">
-        <h5 class="card-title">@Model["Patient"]</h5>
-        <p class="card-subtitle text-muted">@Model["Födelsedatum"] · @Model["Date"]</p>
-        <p class="card-text mt-2">@Model["Request"]</p>
-    </div>
-</div>
+<div class="container py-4">
 
-@* ---------- Priority + comment ---------- *@
-<form asp-controller="Staff" asp-action="OpenPatientRequest" method="post" class="mb-4">
-    <fieldset class="mb-3">
-        <legend class="fs-6">Prioritet (1 är högst)</legend>
-        @for (int i = 1; i <= 5; i++)
-        {
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="priority" id="prio@(i)" value="@i" required />
-                <label class="form-check-label" for="prio@(i)">@i</label>
+    <!-- Patient information -->
+    <div class="card patient-card mb-4">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start">
+                <div>
+                    <span class="section-label">PATIENTFÖRFRÅGAN</span>
+                    <h4 class="mt-2 mb-1">@Model["Patient"]</h4>
+                    <p class="text-muted mb-0">@Model["Födelsedatum"] · @Model["Date"]</p>
+                </div>
+                <span class="status-badge">
+                    <span class="status-dot"></span>
+                    Väntar på behandling
+                </span>
             </div>
-        }
-    </fieldset>
-
-    <div class="mb-3">
-        <label for="staffComment" class="form-label">Kommentar</label>
-        <textarea id="staffComment" name="staffComment" class="form-control" rows="3"></textarea>
+            <hr />
+            <h6>Patientens önskemål</h6>
+            <p class="mb-0">@Model["Request"]</p>
+        </div>
     </div>
 
-    <button type="submit" class="btn btn-primary">Spara</button>
-</form>
+    <div class="row g-4">
 
-@* ---------- Room type picker ---------- *@
-<form asp-action="StaffRequestRead" method="get" class="mb-4">
-    <label for="roomPicked" class="form-label">Rumstyp</label>
-    <select id="roomPicked" name="roomPicked" class="form-select" onchange="this.form.submit()">
-        <option value="" disabled selected="@(roomPicked is null)">Välj rumstyp</option>
-        @foreach (var (value, label) in roomTypes)
-        {
-            <option value="@value" selected="@(roomPicked == value)">@label</option>
-        }
-    </select>
-</form>
+        <!-- Priority and comment -->
+        <div class="col-lg-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Bedöm förfrågan</h5>
+                    <p class="text-muted small">Ange prioritet och eventuell kommentar.</p>
 
-@* ---------- Room schedule grid ---------- *@
-@if (roomPicked is not null)
-{
-    <partial name="RoomDetails" model="bookings" />
+                    <form asp-controller="Staff" asp-action="OpenPatientRequest" method="post" id="requestForm">
+
+                        <fieldset class="mb-4">
+                            <legend class="form-label fw-semibold">Prioritet</legend>
+                            <div class="priority-container">
+                                @for (int i = 1; i <= 5; i++)
+                                {
+                                    <label class="priority-option priority-@i" for="prio@(i)">
+                                        <input type="radio" name="priority" id="prio@(i)" value="@i" required />
+                                        <span class="priority-number">@i</span>
+                                        <span class="priority-description">
+                                            @(i == 1 ? "Akut" :
+                                              i == 2 ? "Mycket hög" :
+                                              i == 3 ? "Normal" :
+                                              i == 4 ? "Låg" : "Mycket låg")
+                                        </span>
+                                    </label>
+                                }
+                            </div>
+                            <small class="text-muted">1 = Högsta prioritet · 5 = Lägsta prioritet</small>
+                        </fieldset>
+
+                        <div class="mb-3">
+                            <label for="staffComment" class="form-label fw-semibold">Personalkommentar</label>
+                            <textarea id="staffComment" name="staffComment" class="form-control"
+                                      rows="4" maxlength="500" placeholder="Skriv en kommentar..."></textarea>
+                            <div class="d-flex justify-content-between mt-1">
+                                <small class="text-muted">Kommentar till förfrågan</small>
+                                <small id="charCounter" class="text-muted">0 / 500</small>
+                            </div>
+                        </div>
+
+                        <div class="preview-box mb-3">
+                            <h6>Förhandsvisning</h6>
+                            <p class="mb-1"><strong>Prioritet:</strong> <span id="previewPriority">Inte vald</span></p>
+                            <p class="mb-0"><strong>Kommentar:</strong> <span id="previewComment">Ingen kommentar</span></p>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100" id="saveButton">
+                            <span id="saveButtonText">Spara bedömning</span>
+                            <span id="saveSpinner" class="spinner-border spinner-border-sm ms-2 d-none" role="status"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Room type + staff role -->
+        <div class="col-lg-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Välj rumstyp och arbetsroll</h5>
+                    <p class="text-muted small">Uppdaterar listan över ledig personal.</p>
+
+                    <form asp-action="StaffRequestRead" method="get" id="roomForm">
+                        <div class="mb-3">
+                            <label for="roomPicked" class="form-label fw-semibold">Rumstyp</label>
+                            <select id="roomPicked" name="roomPicked" class="form-select">
+                                <option value="" disabled selected="@(roomPicked is null)">Välj rumstyp</option>
+                                @foreach (var (value, label) in roomTypes)
+                                {
+                                    <option value="@value" selected="@(roomPicked == value)">@label</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="StaffPicked" class="form-label fw-semibold">Arbetsroll</label>
+                            <select id="StaffPicked" name="StaffType" class="form-select">
+                                <option value="" disabled selected="@(StaffPicked is null)">Välj arbetsroll</option>
+                                @foreach (var (value, label) in StaffTypeConfused)
+                                {
+                                    <option value="@value" selected="@(StaffPicked == value)">@label</option>
+                                }
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-outline-primary w-100">Uppdatera</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div> @* end row *@
+
+    <!-- Room schedule -->
+    @if (roomPicked is not null)
+    {
+        <div class="card mt-4">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div>
+                        <h5 class="mb-1">Rumsöversikt</h5>
+                        <p class="text-muted small mb-0">Tillgängliga bokningar för @roomPicked</p>
+                    </div>
+                    <span class="badge bg-primary">@bookings.Count bokningar</span>
+                </div>
+                <partial name="RoomDetails" model="bookings" />
+            </div>
+        </div>
+    }
+
+    <!-- Booking: rooms/times/people that are free (from WhichStaffIsFree.json) -->
+    <div class="card mt-4">
+        <div class="card-body">
+            <h5 class="card-title">Boka rum, tid och personal</h5>
+
+            @if (TempData["Success"] is string ok)
+            {
+                <div class="alert alert-success">@ok</div>
+            }
+            @if (TempData["Error"] is string err)
+            {
+                <div class="alert alert-danger">@err</div>
+            }
+
+            @if (free.Count == 0)
+            {
+                <p class="text-muted small mb-0">
+                    Inga lediga tider. Välj rumstyp och arbetsroll och tryck Uppdatera.
+                </p>
+            }
+            else
+            {
+                <p class="text-muted small">Klicka på en grön ruta i schemat eller välj i listorna.</p>
+
+                <form asp-controller="Staff" asp-action="ConfirmBooking" method="post" class="row g-3 mb-4">
+                    <input type="hidden" name="patient" value="@Model["Patient"]" />
+                    <input type="hidden" name="roomPicked" value="@roomPicked" />
+                    <input type="hidden" name="StaffType" value="@StaffPicked" />
+
+                    <div class="col-md-3">
+                        <label class="form-label fw-semibold" for="bkRum">Rum</label>
+                        <select id="bkRum" name="rum" class="form-select" required></select>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label fw-semibold" for="bkDag">Dag</label>
+                        <select id="bkDag" name="dag" class="form-select" required></select>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="form-label fw-semibold" for="bkTid">Tid</label>
+                        <select id="bkTid" name="tid" class="form-select" required></select>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label fw-semibold" for="bkPerson">Personal</label>
+                        <select id="bkPerson" name="personnummer" class="form-select" required></select>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-success w-100">Bekräfta bokning</button>
+                    </div>
+                </form>
+
+                @foreach (var rum in freeRooms)
+                {
+                    <h6 class="mt-3">Rum @rum</h6>
+                    <div class="table-responsive">
+                        <table class="table table-sm table-bordered text-center align-middle">
+                            <thead>
+                                <tr>
+                                    <th>Tid</th>
+                                    @foreach (var d in weekDays)
+                                    {
+                                        <th>@d</th>
+                                    }
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var t in freeTimes)
+                                {
+                                    <tr>
+                                        <td class="text-nowrap">@($"{t.Substring(0, 2)}:00–{t.Substring(3, 2)}:00")</td>
+                                        @foreach (var d in weekDays)
+                                        {
+                                            var n = free.Count(f => f["rum"]!.ToString() == rum
+                                                                 && f["dag"]!.ToString() == d
+                                                                 && f["tid"]!.ToString() == t);
+                                            if (n == 0)
+                                            {
+                                                <td class="text-muted">–</td>
+                                            }
+                                            else
+                                            {
+                                                <td class="slot-free bg-success-subtle" style="cursor:pointer"
+                                                    data-rum="@rum" data-dag="@d" data-tid="@t">
+                                                    Ledig<br /><small>@n personal</small>
+                                                </td>
+                                            }
+                                        }
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+
+</div> @* end container *@
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // Priority selection
+            const previewPriority = document.getElementById("previewPriority");
+            document.querySelectorAll('input[name="priority"]').forEach(input => {
+                input.addEventListener("change", function () {
+                    previewPriority.textContent = this.value + " - " +
+                        this.closest(".priority-option").querySelector(".priority-description").textContent;
+                });
+            });
+
+            // Comment counter and preview
+            const comment = document.getElementById("staffComment");
+            const counter = document.getElementById("charCounter");
+            const previewComment = document.getElementById("previewComment");
+            comment.addEventListener("input", function () {
+                counter.textContent = this.value.length + " / 500";
+                previewComment.textContent = this.value.trim() || "Ingen kommentar";
+                counter.classList.toggle("text-danger", this.value.length >= 450);
+            });
+
+            // Save button loading state
+            const requestForm = document.getElementById("requestForm");
+            const saveButton = document.getElementById("saveButton");
+            const saveButtonText = document.getElementById("saveButtonText");
+            const saveSpinner = document.getElementById("saveSpinner");
+            requestForm.addEventListener("submit", function () {
+                if (!requestForm.checkValidity()) return;
+                saveButton.disabled = true;
+                saveButtonText.textContent = "Sparar...";
+                saveSpinner.classList.remove("d-none");
+            });
+
+            // Booking dropdowns (data from WhichStaffIsFree.json)
+            const free = @Html.Raw(ViewBag.FreeStaff as string ?? "[]");
+            const order = ["Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag"];
+            const selRum = document.getElementById("bkRum");
+            if (selRum) {
+                const selDag = document.getElementById("bkDag");
+                const selTid = document.getElementById("bkTid");
+                const selPerson = document.getElementById("bkPerson");
+
+                const uniq = a => [...new Set(a)];
+                function fill(sel, items, placeholder) {
+                    const old = sel.value;
+                    sel.innerHTML = "";
+                    const ph = new Option(placeholder, "");
+                    ph.disabled = true;
+                    sel.add(ph);
+                    items.forEach(i => sel.add(new Option(i.label, i.value)));
+                    sel.value = items.some(i => i.value === old) ? old : "";
+                }
+                function refreshDag() {
+                    const days = uniq(free.filter(f => f.rum === selRum.value).map(f => f.dag))
+                        .sort((a, b) => order.indexOf(a) - order.indexOf(b));
+                    fill(selDag, days.map(d => ({ value: d, label: d })), "Välj dag");
+                    refreshTid();
+                }
+                function refreshTid() {
+                    const times = uniq(free.filter(f => f.rum === selRum.value && f.dag === selDag.value)
+                        .map(f => f.tid)).sort();
+                    fill(selTid, times.map(t => ({ value: t, label: t.replace("-", ":00–") + ":00" })), "Välj tid");
+                    refreshPerson();
+                }
+                function refreshPerson() {
+                    const people = free.filter(f => f.rum === selRum.value && f.dag === selDag.value && f.tid === selTid.value);
+                    fill(selPerson, people.map(f => ({ value: f.personnummer, label: f.FirstName + " " + f.LastName })), "Välj personal");
+                }
+
+                fill(selRum, uniq(free.map(f => f.rum)).sort().map(r => ({ value: r, label: "Rum " + r })), "Välj rum");
+                selRum.addEventListener("change", refreshDag);
+                selDag.addEventListener("change", refreshTid);
+                selTid.addEventListener("change", refreshPerson);
+                refreshDag();
+
+                document.querySelectorAll(".slot-free").forEach(td => {
+                    td.addEventListener("click", () => {
+                        selRum.value = td.dataset.rum; refreshDag();
+                        selDag.value = td.dataset.dag; refreshTid();
+                        selTid.value = td.dataset.tid; refreshPerson();
+                        selPerson.focus();
+                    });
+                });
+            }
+        });
+    </script>
 }

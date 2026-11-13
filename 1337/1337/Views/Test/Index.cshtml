@@ -1,17 +1,22 @@
-﻿@using System.Text.Json.Nodes
-@model List<JsonObject>
+﻿@model System.Text.Json.Nodes.JsonNode
 @{
-    ViewData["Title"] = "Tillgänglighet";
+    ViewData["Title"] = "Patientförfrågan";
+    var bookings = ViewBag.Bookings as List<System.Text.Json.Nodes.JsonObject> ?? new();
+    var Staffbooking = ViewBag.Staffbooking as List<System.Text.Json.Nodes.JsonObject> ?? new();
+    var StaffPicked = ViewBag.StaffPicked as string;
+    var roomPicked = ViewBag.RoomPicked as string;
 
-    string[] days = { "Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag" };
-    string[] hours = Enumerable.Range(0, 24).Select(h => $"{h:00}-{(h + 1) % 24:00}").ToArray();
-    string current = ViewBag.StaffType;
-
-    var types = new Dictionary<string, string>
+    var roomTypes = new Dictionary<string, string>
+    {
+        ["EmergencyRooms"] = "Akutrum",
+        ["TreatmentRoom"] = "BehandlingsRum",
+        ["ExaminationRooms"] = "Undersökningsrum"
+    };
+    var StaffTypeConfused = new Dictionary<string, string>
     {
         ["Doctors"] = "Läkare",
-        ["Nurses"] = "Sjuksköterskor",
-        ["AssistantNurse"] = "Undersköterskor"
+        ["Nurses"] = "Sjuksköterska",
+        ["AssistantNurse"] = "Undersköterska"
     };
 }
 
@@ -19,54 +24,29 @@
     <link rel="stylesheet" href="~/css/test.css" asp-append-version="true" />
 }
 
-<h1>Tillgänglighet</h1>
+<form asp-action="Index" method="get" class="mb-4">
 
-<nav class="mb-3">
-    @foreach (var (key, label) in types)
-    {
-        <a asp-action="Index" asp-route-staffType="@key"
-           class="btn btn-sm @(current == key ? "btn-primary" : "btn-outline-primary")">@label</a>
-    }
-</nav>
+    @* ---------- Room type picker ---------- *@
+    <div class="mb-3">
+        <label for="roomPicked" class="form-label">Rumstyp</label>
+        <select id="roomPicked" name="roomPicked" class="form-select" onchange="this.form.submit()">
+            <option value="" disabled selected="@(roomPicked is null)">Välj rumstyp</option>
+            @foreach (var (value, label) in roomTypes)
+            {
+                <option value="@value" selected="@(roomPicked == value)">@label</option>
+            }
+        </select>
+    </div>
 
-<p class="legend">
-    <span class="cell on"></span> Arbetar
-    <span class="cell off"></span> Ledig
-</p>
-
-@foreach (var person in Model)
-{
-    // Uses "Name" if it exists, otherwise FirstName + LastName
-    string name = person["Name"]?.ToString() ?? $"{person["FirstName"]} {person["LastName"]}";
-
-    <section class="staff-card">
-        <h2>@name</h2>
-        <div class="table-responsive">
-            <table class="schedule">
-                <thead>
-                    <tr>
-                        <th></th>
-                        @foreach (var h in hours)
-                        {
-                            <th>@h[..2]</th>
-                        }
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var d in days)
-                    {
-                        var day = person[d]?.AsObject();
-                        <tr>
-                            <th>@d</th>
-                            @foreach (var h in hours)
-                            {
-                                bool working = day != null && day.ContainsKey(h) && day[h] is null;
-                                <td class="@(working ? "on" : "off")" title="@d @h"></td>
-                            }
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
-    </section>
-}
+    @* ---------- Staff type picker ---------- *@
+    <div class="mb-3">
+        <label for="StaffPicked" class="form-label">Arbetsroll</label>
+        <select id="StaffPicked" name="StaffType" class="form-select" onchange="this.form.submit()">
+            <option value="" disabled selected="@(StaffPicked is null)">Välj Arbetsroll</option>
+            @foreach (var (value, label) in StaffTypeConfused)
+            {
+                <option value="@value" selected="@(StaffPicked == value)">@label</option>
+            }
+        </select>
+    </div>
+</form>

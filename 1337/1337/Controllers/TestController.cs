@@ -8,13 +8,18 @@ namespace _1337.Controllers
 {
     public class TestController : Controller
     {
-        public IActionResult Index(string staffType = "AssistantNurse")
+        public IActionResult Index(string? StaffType, string? roomPicked)
         {
-            var checker = new CheckAvailabilityStaff();
-            var result = checker.StaffAvailability(staffType, out _);
+            ViewBag.StaffType = StaffType;
+            ViewBag.RoomPicked = roomPicked;
+            if (StaffType != null)
+                ViewBag.Staffbooking = new CheckAvailabilityStaff().StaffAvailability(StaffType);
+            if (roomPicked != null)
+                ViewBag.Bookings = new RoomBook().GetRoomBookings(roomPicked);
 
-            ViewBag.StaffType = staffType;
-            return View(result);
+            if (roomPicked != null && StaffType != null)
+                ViewBag.Matches = new MatchRoomAndStaff().MatchRoomAndStaffMethod();
+            return View();
         }
     }
 }
