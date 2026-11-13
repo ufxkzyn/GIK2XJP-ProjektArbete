@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.DataProtection.KeyManagement;
+using System.Text.Json;
 using System.Text.Json.Nodes;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -6,10 +7,8 @@ namespace _1337.Models
 {
     public class CheckAvailabilityStaff
     {
-        public List<JsonObject> StaffAvailability(string StaffType, out string StaffTimesOut)
+        public List<JsonObject> StaffAvailability(string StaffType)
         {
-            StaffTimesOut = string.Empty;
-
             var StaffTimes = new List<JsonObject>();
 
             switch (StaffType)
@@ -23,6 +22,9 @@ namespace _1337.Models
                             var TimeBookedFin = new JsonObject
                             {
                                 ["personnummer"] = persnr.Key,
+                                ["Roll"] = persnr.Value!["Roll"]?.DeepClone(),
+                                ["FirstName"] = persnr.Value!["FirstName"]?.DeepClone(),
+                                ["LastName"] = persnr.Value!["LastName"]?.DeepClone(),
                                 ["Måndag"] = persnr.Value!["Måndag"]?.DeepClone(),
                                 ["Tisdag"] = persnr.Value!["Tisdag"]?.DeepClone(),
                                 ["Onsdag"] = persnr.Value!["Onsdag"]?.DeepClone(),
@@ -43,6 +45,9 @@ namespace _1337.Models
                             var TimeBookedFin = new JsonObject
                             {
                                 ["personnummer"] = persnr.Key,
+                                ["Roll"] = persnr.Value!["Roll"]?.DeepClone(),
+                                ["FirstName"] = persnr.Value!["FirstName"]?.DeepClone(),
+                                ["LastName"] = persnr.Value!["LastName"]?.DeepClone(),
                                 ["Måndag"] = persnr.Value!["Måndag"]?.DeepClone(),
                                 ["Tisdag"] = persnr.Value!["Tisdag"]?.DeepClone(),
                                 ["Onsdag"] = persnr.Value!["Onsdag"]?.DeepClone(),
@@ -63,6 +68,9 @@ namespace _1337.Models
                             var TimeBookedFin = new JsonObject
                             {
                                 ["personnummer"] = persnr.Key,
+                                ["Roll"] = persnr.Value!["Roll"]?.DeepClone(),
+                                ["FirstName"] = persnr.Value!["FirstName"]?.DeepClone(),
+                                ["LastName"] = persnr.Value!["LastName"]?.DeepClone(),
                                 ["Måndag"] = persnr.Value!["Måndag"]?.DeepClone(),
                                 ["Tisdag"] = persnr.Value!["Tisdag"]?.DeepClone(),
                                 ["Onsdag"] = persnr.Value!["Onsdag"]?.DeepClone(),
@@ -76,6 +84,8 @@ namespace _1337.Models
                         break;
                     }
             }
+            var SaveStaffTimesSendAway = new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
+            File.WriteAllText("Data/temp/StaffTimes.json", JsonSerializer.Serialize(StaffTimes, SaveStaffTimesSendAway));
             return StaffTimes;
         }
     }

@@ -1,0 +1,7610 @@
+{
+  "301": {
+    "Måndag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Tisdag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Onsdag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Torsdag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Fredag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Lördag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Söndag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    }
+  },
+  "302": {
+    "Måndag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Tisdag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Onsdag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Torsdag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Fredag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Lördag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Söndag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    }
+  },
+  "303": {
+    "Måndag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Tisdag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Onsdag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Torsdag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Fredag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Lördag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    },
+    "Söndag": {
+      "00-01": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "01-02": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "02-03": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "03-04": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "04-05": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "05-06": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "06-07": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "07-08": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "08-09": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "09-10": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "10-11": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "11-12": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "12-13": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "13-14": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "14-15": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "15-16": [
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "16-17": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "17-18": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "18-19": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "19-20": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "20-21": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Ali",
+          "LastName": "Hassan",
+          "personnummer": "199306031973",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "21-22": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "22-23": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ],
+      "23-00": [
+        {
+          "FirstName": "Johan",
+          "LastName": "Berg",
+          "personnummer": "199203142311",
+          "Roll": "Sjuksköterska"
+        },
+        {
+          "FirstName": "Maria",
+          "LastName": "Holm",
+          "personnummer": "198807224483",
+          "Roll": "Sjuksköterska"
+        }
+      ]
+    }
+  }
+}

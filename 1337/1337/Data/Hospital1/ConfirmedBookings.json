@@ -1,0 +1,58 @@
+[
+  {
+    "StaffBooking": {
+      "rum": "101",
+      "dag": "Söndag",
+      "tid": "00-01",
+      "FirstName": "Maria",
+      "LastName": "Holm",
+      "Roll": "Sjuksköterska"
+    },
+    "PatientBooking": {
+      "patient": "Anna Andersson",
+      "personnummer": "199001011234",
+      "bookedAt": "2026-11-13T14:19:06",
+      "Request": "Hej kan jag få Hjälp?",
+      "Priority": "1",
+      "AdditionalComment": "Gå direkt till fängelset utan att passera gå"
+    }
+  },
+  {
+    "BokningsNr": 2,
+    "StaffBooking": {
+      "rum": "101",
+      "dag": "Torsdag",
+      "tid": "01-02",
+      "FirstName": "Johan",
+      "LastName": "Berg",
+      "Roll": "Sjuksköterska"
+    },
+    "PatientBooking": {
+      "patient": "Anna Andersson",
+      "personnummer": "199001011234",
+      "bookedAt": "2026-11-13T14:25:48",
+      "Request": "Hej kan jag få Hjälp?",
+      "Priority": "1",
+      "AdditionalComment": "IntoTheJsonYouGo "
+    }
+  },
+  {
+    "BokningsNr": 3,
+    "StaffBooking": {
+      "rum": "301",
+      "dag": "Torsdag",
+      "tid": "02-03",
+      "FirstName": "Maria",
+      "LastName": "Holm",
+      "Roll": "Sjuksköterska"
+    },
+    "PatientBooking": {
+      "patient": "Anna Andersson",
+      "personnummer": "199001011234",
+      "bookedAt": "2026-11-13T14:27:42",
+      "Request": "Hej kan jag få Hjälp?",
+      "Priority": "5",
+      "AdditionalComment": "Passera gå"
+    }
+  }
+]
