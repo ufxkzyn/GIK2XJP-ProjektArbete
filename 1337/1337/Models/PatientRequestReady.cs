@@ -10,7 +10,7 @@ namespace _1337.Models
     {
         public void SaveAndSendPatientRequest(string requestText)
         {
-            var CurrentPatient = JsonNode.Parse(File.ReadAllText("Data/CurrentPatient.json"));
+            var CurrentPatient = JsonNode.Parse(File.ReadAllText("Data/CurrentUser.json"));
 
 
             var RequestAndPatient = new JsonObject
